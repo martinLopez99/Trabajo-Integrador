@@ -8,15 +8,50 @@ namespace Prestamos_Biblioteca.Dominio
 {
     public class Usuario
     {
-        public int DNI { get; set; }
+        private int iDNI;
+        private string iNombre;
+        private string iApellido;
+        private TimeSpan iFechaNacimiento;
+        private bool iEsAdminsitrador;
 
-        public string Nombre { get; set; }
+        public Usuario(int pDNI, string pNombre, string pApellido, TimeSpan pFechaNacimiento, bool pEsAdministrador)
+        {
+            this.iDNI  =  pDNI;
+            this.iNombre  =  pNombre;
+            this.iApellido  =  pApellido;
+            this.iFechaNacimiento = pFechaNacimiento;
+            this.iEsAdminsitrador =  pEsAdministrador;
+        }
+        
+        public int DNI
+        {
+            get { return this.iDNI; }
+            private set { }
+        }
 
-        public string Apellido { get; set; }
+        public string Nombre 
+        {
+            get { return this.iNombre; }
+            private set { }
+        }
 
-        public TimeSpan FechaDeNacimiento { get; set; }
+        public string Apellido
+        {
+            get { return this.iApellido; }
+            private set { }
+        }
 
-        public bool EsAdministrador { get; set; }
+        public TimeSpan FechaNacimiento
+        {
+            get { return this.iFechaNacimiento; }
+            private set { }
+        }
+
+        public bool EsAdministrador
+        {
+            get { return this.iEsAdminsitrador; }
+            private set { }
+        }
 
     }
 }

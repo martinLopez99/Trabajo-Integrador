@@ -8,7 +8,8 @@ namespace Prestamos_Biblioteca.Dominio
 {
     public enum EstadoDevolucion
     {
-        enBuneEstado,
-        enMalEstado
+        enBuenEstado,
+        enMalEstado,
+        sinDevolver             //Cuando el ejemplar todavia no ha sido devuelto
     }
 }

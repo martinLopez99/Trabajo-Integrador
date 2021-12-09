@@ -8,7 +8,17 @@ namespace Prestamos_Biblioteca.Dominio
 {
     public class Ejemplar
     {
-        public int IdEjemplar { get; set; }
+        private int iId;
+
+        public Ejemplar (int pId)
+        {
+            this.iId = pId;
+        }
+        public int Id
+        {
+            get { return this.iId; }
+            private set { }  
+        }
 
     }
 }

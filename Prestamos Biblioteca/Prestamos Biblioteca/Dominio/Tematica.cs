@@ -8,7 +8,21 @@ namespace Prestamos_Biblioteca.Dominio
 {
     public class Tematica
     {
-        public int IdTematica { get; set; }
-        public string Nombre { get; set; }
+        private int iId; 
+        private string iNombre;
+        public Tematica(int pId, string pNombre)
+        {
+            this.iId = pId ;
+            this.iNombre = pNombre;
+        }
+        public int IdTematica 
+        {
+            get {return this.iId; }
+            private set { } 
+        }
+        public string Nombre 
+        { get { return this.iNombre; }
+            private set { } 
+        }
     }
 }

@@ -9,12 +9,35 @@ namespace Prestamos_Biblioteca.Dominio
     public class Libro
     {
 
+        private int iISBN10;
+        private string iTitulo;
+        private string iSubtitulo;
 
-        public int ISBN10 { get; set; }
+        public Libro(int pISBN10, string pTitulo, string pSubtitulo)
+        {
+            this.iISBN10 = pISBN10;
+            this.iTitulo = pTitulo;
+            this.iSubtitulo = pSubtitulo;
+        }
 
-        public string Titulo { get; set; }
+        public int ISBN10 
+        {
+            get { return this.iISBN10; }
+            private set { }
+        }
 
-        public string SubTitulo { get; set; }
+        public string Titulo 
+        {
+            get { return this.iTitulo; }
+
+            private set { }
+        }
+
+        public string Subtitulo 
+        {
+            get { return this.iSubtitulo; } 
+            private set { }
+        }
 
         public List<Autor> Autores { get; set; }
 

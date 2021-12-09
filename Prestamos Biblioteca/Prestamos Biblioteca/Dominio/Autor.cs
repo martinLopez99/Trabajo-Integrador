@@ -8,8 +8,23 @@ namespace Prestamos_Biblioteca.Dominio
 {
     public class Autor
     {
-        public int IdAutor { get; set; }
+        private int iId;
+        private string iNombreYApellido;
 
-        public string NombreApellido { get; set; }
+        public Autor(int pId, string pNombreYApellido)
+        {
+            this.iId = pId;
+            this.iNombreYApellido = pNombreYApellido;
+        }
+        
+        public int Id {
+            get { return this.iId; } 
+            private set { }
+        }
+
+        public string NombreApellido { get
+            { return this.iNombreYApellido;  }
+            private set  { } 
+        }
     }
 }

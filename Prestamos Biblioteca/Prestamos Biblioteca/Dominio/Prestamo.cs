@@ -8,12 +8,74 @@ namespace Prestamos_Biblioteca.Dominio
 {
     public class Prestamo
     {
-        public int Numero { get; set; }
+        private int iNumero;
+        private TimeSpan iFechaInicio;
+        private TimeSpan iFechaDevolucionEstimada;
+        private TimeSpan? iFechaDevolucionEfectiva;
+        private EstadoDevolucion iCondicionDevolucion;
+        private string iComentarios;
+        
 
-        public TimeSpan FechaInicio { get; set; }
-        public TimeSpan FechaDevolucionEstimada { get; set; }
-        public TimeSpan FechaDevolucionEfectiva { get; set; }
-        public EstadoDevolucion CondicionDevolucion { get; set; }
-        public string Comentario { get; set; }
+        public Prestamo(int pNumero, TimeSpan pFechaInicio, TimeSpan pFechaDevolucionEstimada)
+        {
+            this.iNumero = pNumero;
+            this.iFechaInicio = pFechaInicio;
+            this.iFechaDevolucionEstimada = pFechaDevolucionEstimada;
+            this.iFechaDevolucionEfectiva = null;
+            this.iCondicionDevolucion = EstadoDevolucion.sinDevolver;
+            this.iComentarios = "";
+
+        }
+        
+        public int Numero 
+        {
+            get { return this.iNumero; }
+            private set { } 
+        }
+
+        public TimeSpan FechaInicio 
+        {
+            get  { return this.iFechaInicio; }
+            private set  {  } 
+        }
+
+        public TimeSpan FechaDevolucionEstimada 
+        { 
+            get  { return this.iFechaDevolucionEstimada; }
+            private set  {  } 
+        }
+
+        public TimeSpan? FechaDevolucionEfectiva
+        {
+            get { return this.iFechaDevolucionEfectiva; }
+            private set { }
+        }
+
+        public EstadoDevolucion CondicionDevolucion
+        {
+            get { return this.iCondicionDevolucion; }
+            private set { }
+        }
+
+        public string Comentarios
+        {
+            get { return this.iComentarios; }
+            private set { }
+        }
+
+        public void AsignarFechaDevolucionEfectiva(TimeSpan pFechaDevolucionEfectiva)
+        {
+            this.FechaDevolucionEfectiva = pFechaDevolucionEfectiva;
+        }
+
+        public void AgregarComentarios(string pComentarios)
+        {
+            this.iComentarios = pComentarios;
+        }
+
+        public void AsignarCondicionDevolucion(EstadoDevolucion pCondicionDevolucion)
+        {
+            this.iCondicionDevolucion = pCondicionDevolucion;
+        }
     }
 }
