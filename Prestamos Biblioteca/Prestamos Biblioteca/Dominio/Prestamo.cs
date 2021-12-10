@@ -6,43 +6,58 @@ using System.Threading.Tasks;
 
 namespace Prestamos_Biblioteca.Dominio
 {
+
     public class Prestamo
     {
         private int iNumero;
+        private Usuario iUsuario;
+        private Ejemplar iEjemplar;
         private TimeSpan iFechaInicio;
         private TimeSpan iFechaDevolucionEstimada;
         private TimeSpan? iFechaDevolucionEfectiva;
         private EstadoDevolucion iCondicionDevolucion;
         private string iComentarios;
-        
 
-        public Prestamo(int pNumero, TimeSpan pFechaInicio, TimeSpan pFechaDevolucionEstimada)
+
+        public Prestamo(int pNumero, Usuario pUsuario, Ejemplar pEjemplar, TimeSpan pFechaInicio, TimeSpan pFechaDevolucionEstimada)
         {
             this.iNumero = pNumero;
+            this.iUsuario = pUsuario;
+            this.iEjemplar = pEjemplar;
             this.iFechaInicio = pFechaInicio;
             this.iFechaDevolucionEstimada = pFechaDevolucionEstimada;
             this.iFechaDevolucionEfectiva = null;
             this.iCondicionDevolucion = EstadoDevolucion.sinDevolver;
             this.iComentarios = "";
-
         }
-        
-        public int Numero 
+
+        public int Numero
         {
             get { return this.iNumero; }
-            private set { } 
+            private set { }
         }
-
-        public TimeSpan FechaInicio 
+        public Usuario Usuario
         {
-            get  { return this.iFechaInicio; }
-            private set  {  } 
+            get { return this.iUsuario; }
+            private set { }
         }
 
-        public TimeSpan FechaDevolucionEstimada 
-        { 
-            get  { return this.iFechaDevolucionEstimada; }
-            private set  {  } 
+        public Ejemplar Ejemplar
+        {
+            get { return this.iEjemplar; }
+            private set { }
+        }
+
+        public TimeSpan FechaInicio
+        {
+            get { return this.iFechaInicio; }
+            private set { }
+        }
+
+        public TimeSpan FechaDevolucionEstimada
+        {
+            get { return this.iFechaDevolucionEstimada; }
+            private set { }
         }
 
         public TimeSpan? FechaDevolucionEfectiva
@@ -78,4 +93,5 @@ namespace Prestamos_Biblioteca.Dominio
             this.iCondicionDevolucion = pCondicionDevolucion;
         }
     }
+
 }

@@ -6,30 +6,33 @@ using System.Threading.Tasks;
 
 namespace Prestamos_Biblioteca.Dominio
 {
+
     public class Usuario
     {
         private int iDNI;
         private string iNombre;
         private string iApellido;
+        private string iEmail;
         private TimeSpan iFechaNacimiento;
         private bool iEsAdminsitrador;
 
-        public Usuario(int pDNI, string pNombre, string pApellido, TimeSpan pFechaNacimiento, bool pEsAdministrador)
+        public Usuario(int pDNI, string pNombre, string pApellido, string pEmail, TimeSpan pFechaNacimiento, bool pEsAdministrador)
         {
-            this.iDNI  =  pDNI;
-            this.iNombre  =  pNombre;
-            this.iApellido  =  pApellido;
+            this.iDNI = pDNI;
+            this.iNombre = pNombre;
+            this.iApellido = pApellido;
+            this.iEmail = pEmail;
             this.iFechaNacimiento = pFechaNacimiento;
-            this.iEsAdminsitrador =  pEsAdministrador;
+            this.iEsAdminsitrador = pEsAdministrador;
         }
-        
+
         public int DNI
         {
             get { return this.iDNI; }
             private set { }
         }
 
-        public string Nombre 
+        public string Nombre
         {
             get { return this.iNombre; }
             private set { }
@@ -38,6 +41,11 @@ namespace Prestamos_Biblioteca.Dominio
         public string Apellido
         {
             get { return this.iApellido; }
+            private set { }
+        }
+        public string Email
+        {
+            get { return this.iEmail; }
             private set { }
         }
 
@@ -54,4 +62,5 @@ namespace Prestamos_Biblioteca.Dominio
         }
 
     }
+
 }
