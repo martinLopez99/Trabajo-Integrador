@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Prestamos_Biblioteca.DAL.EntityFramework
 {
-    class UsuarioRepository
+    public class UsuarioRepository
     {
     }
 }

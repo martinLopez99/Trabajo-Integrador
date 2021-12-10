@@ -6,7 +6,11 @@ using System.Threading.Tasks;
 
 namespace Prestamos_Biblioteca.DAL.EntityFramework
 {
-    class LibroRepository
+    public class LibroRepository : Repository<Dominio.Libro, LibroManagerDbContext>,ILibroRepository
     {
+        public LibroRepository(LibroManagerDbContext pDbContext) : base(pDbContext)
+        {
+
+        }
     }
 }

@@ -9,11 +9,11 @@ namespace Prestamos_Biblioteca.DAL.EntityFramework
     public class UnitOfWork : IUnitOfWork
     {
 
-        private readonly AccountManagerDbContext iDbContext;
+        private readonly LibroManagerDbContext iDbContext;
 
         private bool iDisposedValue = false;
 
-        public UnitOfWork(AccountManagerDbContext pDbContext)
+        public UnitOfWork(LibroManagerDbContext pDbContext)
         {
             if (pDbContext == null)
             {
@@ -21,7 +21,7 @@ namespace Prestamos_Biblioteca.DAL.EntityFramework
             }
 
             this.iDbContext = pDbContext;
-            this.LibroRespository = new LibroRepository(pDbContext);
+            this.LibroRepository = new LibroRepository(pDbContext);
             this.UsuarioRepository = new UsuarioRepository(pDbContext);
         }
 

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Prestamos_Biblioteca.DAL
 {
-    public interface IUsuarioRespository
+    public interface IUsuarioRepository : IRepository<Dominio.Usuario>
     {
     }
 }

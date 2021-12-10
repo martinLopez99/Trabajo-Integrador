@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Prestamos_Biblioteca.DAL
 {
-    interface IRepository<TEntity> where TEntity : class
+    public interface IRepository<TEntity> where TEntity : class
     {
         void Add(TEntity pEntity);
 

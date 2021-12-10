@@ -10,7 +10,7 @@ namespace Prestamos_Biblioteca.DAL
     {
 
         ILibroRepository LibroRepository { get; }
-        IUsuarioRespository UsuarioRepository { get; }
+        IUsuarioRepository UsuarioRepository { get; }
 
         void Complete();
     }
