@@ -6,6 +6,7 @@ namespace Prestamos_Biblioteca
     {
         static void Main(string[] args)
         {
+            //LogHelper.Log(LogTarget.File, "Prueba de log");
         }
     }
 }

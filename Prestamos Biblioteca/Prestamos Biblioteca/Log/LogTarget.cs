@@ -4,9 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Prestamos_Biblioteca.DAL
+namespace Prestamos_Biblioteca.Log
 {
-    public interface IUsuarioRespository
+    public enum LogTarget
     {
+        File, Database, EventLog
     }
 }

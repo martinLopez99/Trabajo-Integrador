@@ -6,8 +6,12 @@ using System.Threading.Tasks;
 
 namespace Prestamos_Biblioteca.DAL
 {
-    interface IUnitOfWork
+    public interface IUnitOfWork : IDisposable
     {
-        
+
+        ILibroRepository LibroRepository { get; }
+        IUsuarioRespository UsuarioRepository { get; }
+
+        void Complete();
     }
 }
