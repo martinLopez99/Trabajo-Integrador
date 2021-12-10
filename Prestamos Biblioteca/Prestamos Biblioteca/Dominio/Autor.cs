@@ -9,12 +9,12 @@ namespace Prestamos_Biblioteca.Dominio
     public class Autor
     {
         private int iId;
-        private string iNombreYApellido;
+        private string iNombreApellido;
 
-        public Autor(int pId, string pNombreYApellido)
+        public Autor(int pId, string pNombreApellido)
         {
             this.iId = pId;
-            this.iNombreYApellido = pNombreYApellido;
+            this.iNombreApellido = pNombreApellido;
         }
         
         public int Id {
@@ -23,7 +23,7 @@ namespace Prestamos_Biblioteca.Dominio
         }
 
         public string NombreApellido { get
-            { return this.iNombreYApellido;  }
+            { return this.iNombreApellido;  }
             private set  { } 
         }
     }
