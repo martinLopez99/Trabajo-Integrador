@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "GUIPrestamosBiblioteca/1.0.0": {
+        "runtime": {
+          "GUIPrestamosBiblioteca.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "GUIPrestamosBiblioteca/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

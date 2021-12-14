@@ -1,7 +1,7 @@
 ﻿
 namespace GUIPrestamosBiblioteca
 {
-    partial class Form1
+    partial class IniciarSesion
     {
         /// <summary>
         ///  Required designer variable.
@@ -30,7 +30,7 @@ namespace GUIPrestamosBiblioteca
         private void InitializeComponent()
         {
             this.tituloPrincipal = new System.Windows.Forms.Label();
-            this.iniciarSesionAdmBoton = new System.Windows.Forms.Button();
+            this.iniciarSesionBoton = new System.Windows.Forms.Button();
             this.salirBoton = new System.Windows.Forms.Button();
             this.nombreUsuarioTextbox = new System.Windows.Forms.TextBox();
             this.contrasenia = new System.Windows.Forms.Label();
@@ -51,80 +51,85 @@ namespace GUIPrestamosBiblioteca
             this.tituloPrincipal.TabIndex = 0;
             this.tituloPrincipal.Text = "Bienvenido a la App de Prestamos de la Biblioteca";
             // 
-            // iniciarSesionAdmBoton
+            // iniciarSesionBoton
             // 
-            this.iniciarSesionAdmBoton.Font = new System.Drawing.Font("Bahnschrift Light", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.iniciarSesionAdmBoton.Location = new System.Drawing.Point(272, 202);
-            this.iniciarSesionAdmBoton.Name = "iniciarSesionAdmBoton";
-            this.iniciarSesionAdmBoton.Size = new System.Drawing.Size(130, 43);
-            this.iniciarSesionAdmBoton.TabIndex = 1;
-            this.iniciarSesionAdmBoton.Text = "Iniciar Sesión";
-            this.iniciarSesionAdmBoton.UseVisualStyleBackColor = true;
+            this.iniciarSesionBoton.Font = new System.Drawing.Font("Bahnschrift Light", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.iniciarSesionBoton.Location = new System.Drawing.Point(272, 202);
+            this.iniciarSesionBoton.Name = "iniciarSesionBoton";
+            this.iniciarSesionBoton.Size = new System.Drawing.Size(130, 43);
+            this.iniciarSesionBoton.TabIndex = 1;
+            this.iniciarSesionBoton.Text = "Iniciar Sesión";
+            this.iniciarSesionBoton.UseVisualStyleBackColor = true;
+            this.iniciarSesionBoton.Click += new System.EventHandler(this.iniciarSesionBoton_Click);
             // 
             // salirBoton
             // 
             this.salirBoton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.salirBoton.Font = new System.Drawing.Font("Bahnschrift Condensed", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.salirBoton.Location = new System.Drawing.Point(584, 271);
+            this.salirBoton.Location = new System.Drawing.Point(584, 266);
             this.salirBoton.Name = "salirBoton";
             this.salirBoton.Size = new System.Drawing.Size(88, 33);
             this.salirBoton.TabIndex = 2;
             this.salirBoton.Text = "Salir";
             this.salirBoton.UseVisualStyleBackColor = true;
+            this.salirBoton.Click += new System.EventHandler(this.salirBoton_Click);
             // 
             // nombreUsuarioTextbox
             // 
             this.nombreUsuarioTextbox.Font = new System.Drawing.Font("Bahnschrift Light", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.nombreUsuarioTextbox.Location = new System.Drawing.Point(305, 86);
+            this.nombreUsuarioTextbox.Location = new System.Drawing.Point(268, 86);
             this.nombreUsuarioTextbox.Name = "nombreUsuarioTextbox";
-            this.nombreUsuarioTextbox.Size = new System.Drawing.Size(129, 27);
+            this.nombreUsuarioTextbox.Size = new System.Drawing.Size(196, 27);
             this.nombreUsuarioTextbox.TabIndex = 5;
             // 
             // contrasenia
             // 
             this.contrasenia.AutoSize = true;
             this.contrasenia.Font = new System.Drawing.Font("Bahnschrift SemiLight", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.contrasenia.Location = new System.Drawing.Point(202, 137);
+            this.contrasenia.Location = new System.Drawing.Point(165, 137);
             this.contrasenia.Name = "contrasenia";
             this.contrasenia.Size = new System.Drawing.Size(97, 19);
             this.contrasenia.TabIndex = 4;
             this.contrasenia.Text = "Contraseña:";
-            this.contrasenia.Click += new System.EventHandler(this.label2_Click);
             // 
             // nombreUsuario
             // 
             this.nombreUsuario.AutoSize = true;
             this.nombreUsuario.Font = new System.Drawing.Font("Bahnschrift SemiLight", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.nombreUsuario.Location = new System.Drawing.Point(145, 89);
+            this.nombreUsuario.Location = new System.Drawing.Point(108, 89);
             this.nombreUsuario.Name = "nombreUsuario";
             this.nombreUsuario.Size = new System.Drawing.Size(154, 19);
             this.nombreUsuario.TabIndex = 3;
             this.nombreUsuario.Text = "Nombre de Usuario:";
-            this.nombreUsuario.Click += new System.EventHandler(this.label1_Click);
             // 
             // contraseniaTextbox
             // 
             this.contraseniaTextbox.Font = new System.Drawing.Font("Bahnschrift Light", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.contraseniaTextbox.Location = new System.Drawing.Point(305, 137);
+            this.contraseniaTextbox.Location = new System.Drawing.Point(268, 134);
             this.contraseniaTextbox.Name = "contraseniaTextbox";
-            this.contraseniaTextbox.Size = new System.Drawing.Size(129, 27);
+            this.contraseniaTextbox.PasswordChar = '*';
+            this.contraseniaTextbox.Size = new System.Drawing.Size(196, 27);
             this.contraseniaTextbox.TabIndex = 6;
+            this.contraseniaTextbox.UseSystemPasswordChar = true;
             // 
-            // Form1
+            // IniciarSesion
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(684, 316);
+            this.BackColor = System.Drawing.Color.Snow;
+            this.ClientSize = new System.Drawing.Size(684, 311);
             this.Controls.Add(this.contraseniaTextbox);
             this.Controls.Add(this.nombreUsuarioTextbox);
             this.Controls.Add(this.contrasenia);
             this.Controls.Add(this.nombreUsuario);
             this.Controls.Add(this.salirBoton);
-            this.Controls.Add(this.iniciarSesionAdmBoton);
+            this.Controls.Add(this.iniciarSesionBoton);
             this.Controls.Add(this.tituloPrincipal);
-            this.MinimumSize = new System.Drawing.Size(700, 280);
-            this.Name = "Form1";
+            this.ForeColor = System.Drawing.Color.Black;
+            this.MinimumSize = new System.Drawing.Size(700, 350);
+            this.Name = "IniciarSesion";
             this.Text = "Form1";
+            this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -133,7 +138,7 @@ namespace GUIPrestamosBiblioteca
         #endregion
 
         private System.Windows.Forms.Label tituloPrincipal;
-        private System.Windows.Forms.Button iniciarSesionAdmBoton;
+        private System.Windows.Forms.Button iniciarSesionBoton;
         private System.Windows.Forms.Button salirBoton;
         private System.Windows.Forms.TextBox nombreUsuarioTextbox;
         private System.Windows.Forms.Label contrasenia;
