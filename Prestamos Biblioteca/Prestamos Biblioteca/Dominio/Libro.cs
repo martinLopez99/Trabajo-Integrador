@@ -3,6 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Net;
+using System.Net.Http;
+using System.Net.Http.Headers;
 
 namespace Prestamos_Biblioteca.Dominio
 {
@@ -13,39 +16,45 @@ namespace Prestamos_Biblioteca.Dominio
         private string iTitulo;
         private string iSubtitulo;
 
+        #region Constructor
         public Libro(int pISBN10, string pTitulo, string pSubtitulo)
         {
             this.iISBN10 = pISBN10;
             this.iTitulo = pTitulo;
             this.iSubtitulo = pSubtitulo;
         }
+        #endregion
 
-        public int ISBN10 
+        #region Propiedades de la Clase
+        public int isbn
         {
             get { return this.iISBN10; }
             private set { }
         }
 
-        public string Titulo 
+        public string title
         {
             get { return this.iTitulo; }
 
             private set { }
         }
 
-        public string Subtitulo 
+        public string subtitle
         {
-            get { return this.iSubtitulo; } 
+            get { return this.iSubtitulo; }
             private set { }
         }
 
-        public List<Autor> Autores { get; set; }
+        public int first_publish_year { get; private set; }
+        public List<Autor> author_name { get; set; }
 
-        public List<Publicador> Publicadores { get; set; }
+        public List<Publicador> publisher { get; set; }
 
-        public List<Tematica> Tematicas { get; set; }
+        public List<Tematica> subject { get; set; }
 
-        public List<Ejemplar> Ejemplares { get; set; }
+        //public List<Ejemplar> Ejemplares { get; set; }
+        #endregion
+
 
     }
 }
