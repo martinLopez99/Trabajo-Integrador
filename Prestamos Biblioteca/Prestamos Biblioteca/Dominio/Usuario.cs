@@ -16,6 +16,9 @@ namespace Prestamos_Biblioteca.Dominio
         private TimeSpan iFechaNacimiento;
         private bool iEsAdminsitrador;
 
+        private string nombreUsuario;
+        private string contrasenia;
+
         public Usuario(int pDNI, string pNombre, string pApellido, string pEmail, TimeSpan pFechaNacimiento, bool pEsAdministrador)
         {
             this.iDNI = pDNI;
@@ -24,6 +27,15 @@ namespace Prestamos_Biblioteca.Dominio
             this.iEmail = pEmail;
             this.iFechaNacimiento = pFechaNacimiento;
             this.iEsAdminsitrador = pEsAdministrador;
+        }
+
+        public Usuario(string pNombre, string pApellido, TimeSpan pFechaNacimiento, string pNombreUsuario, string pContrasenia)
+        {
+            this.iNombre = pNombre;
+            this.iApellido = pApellido;
+            this.iFechaNacimiento = pFechaNacimiento;
+            this.nombreUsuario = pNombreUsuario;
+            this.contrasenia = pContrasenia;
         }
 
         public int DNI
@@ -43,6 +55,19 @@ namespace Prestamos_Biblioteca.Dominio
             get { return this.iApellido; }
             private set { }
         }
+
+        public string NombreUsuario
+        {
+            get { return this.nombreUsuario; }
+            private set { }
+        }
+
+        public string Contrasenia
+        {
+            get { return this.contrasenia}
+            private set { }
+        }
+
         public string Email
         {
             get { return this.iEmail; }

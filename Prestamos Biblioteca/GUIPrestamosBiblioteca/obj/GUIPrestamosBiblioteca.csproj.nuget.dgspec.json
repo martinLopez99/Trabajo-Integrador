@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Tincho.DESKTOP-D357Q8G\\Desktop\\Tincho\\Drive\\UTN\\4to año\\Taller de Programacion\\Trabajo Final\\TrabajoIntegradorC#\\Prestamos Biblioteca\\GUIPrestamosBiblioteca\\GUIPrestamosBiblioteca.csproj": {}
+    "C:\\Users\\Blade\\Source\\Repos\\Trabajo-Integrador\\Prestamos Biblioteca\\GUIPrestamosBiblioteca\\GUIPrestamosBiblioteca.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Tincho.DESKTOP-D357Q8G\\Desktop\\Tincho\\Drive\\UTN\\4to año\\Taller de Programacion\\Trabajo Final\\TrabajoIntegradorC#\\Prestamos Biblioteca\\GUIPrestamosBiblioteca\\GUIPrestamosBiblioteca.csproj": {
+    "C:\\Users\\Blade\\Source\\Repos\\Trabajo-Integrador\\Prestamos Biblioteca\\GUIPrestamosBiblioteca\\GUIPrestamosBiblioteca.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Tincho.DESKTOP-D357Q8G\\Desktop\\Tincho\\Drive\\UTN\\4to año\\Taller de Programacion\\Trabajo Final\\TrabajoIntegradorC#\\Prestamos Biblioteca\\GUIPrestamosBiblioteca\\GUIPrestamosBiblioteca.csproj",
+        "projectUniqueName": "C:\\Users\\Blade\\Source\\Repos\\Trabajo-Integrador\\Prestamos Biblioteca\\GUIPrestamosBiblioteca\\GUIPrestamosBiblioteca.csproj",
         "projectName": "GUIPrestamosBiblioteca",
-        "projectPath": "C:\\Users\\Tincho.DESKTOP-D357Q8G\\Desktop\\Tincho\\Drive\\UTN\\4to año\\Taller de Programacion\\Trabajo Final\\TrabajoIntegradorC#\\Prestamos Biblioteca\\GUIPrestamosBiblioteca\\GUIPrestamosBiblioteca.csproj",
-        "packagesPath": "C:\\Users\\Tincho.DESKTOP-D357Q8G\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Tincho.DESKTOP-D357Q8G\\Desktop\\Tincho\\Drive\\UTN\\4to año\\Taller de Programacion\\Trabajo Final\\TrabajoIntegradorC#\\Prestamos Biblioteca\\GUIPrestamosBiblioteca\\obj\\",
+        "projectPath": "C:\\Users\\Blade\\Source\\Repos\\Trabajo-Integrador\\Prestamos Biblioteca\\GUIPrestamosBiblioteca\\GUIPrestamosBiblioteca.csproj",
+        "packagesPath": "C:\\Users\\Blade\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Blade\\Source\\Repos\\Trabajo-Integrador\\Prestamos Biblioteca\\GUIPrestamosBiblioteca\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Tincho.DESKTOP-D357Q8G\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Blade\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -27,7 +27,11 @@
         "frameworks": {
           "net5.0-windows7.0": {
             "targetAlias": "net5.0-windows",
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Users\\Blade\\Source\\Repos\\Trabajo-Integrador\\Prestamos Biblioteca\\Prestamos Biblioteca\\Prestamos Biblioteca.csproj": {
+                "projectPath": "C:\\Users\\Blade\\Source\\Repos\\Trabajo-Integrador\\Prestamos Biblioteca\\Prestamos Biblioteca\\Prestamos Biblioteca.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -57,7 +61,79 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.302\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Blade\\Source\\Repos\\Trabajo-Integrador\\Prestamos Biblioteca\\Prestamos Biblioteca\\Prestamos Biblioteca.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Blade\\Source\\Repos\\Trabajo-Integrador\\Prestamos Biblioteca\\Prestamos Biblioteca\\Prestamos Biblioteca.csproj",
+        "projectName": "Prestamos Biblioteca",
+        "projectPath": "C:\\Users\\Blade\\Source\\Repos\\Trabajo-Integrador\\Prestamos Biblioteca\\Prestamos Biblioteca\\Prestamos Biblioteca.csproj",
+        "packagesPath": "C:\\Users\\Blade\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Blade\\Source\\Repos\\Trabajo-Integrador\\Prestamos Biblioteca\\Prestamos Biblioteca\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Blade\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "FluentEmail.Razor": {
+              "target": "Package",
+              "version": "[3.0.0, )"
+            },
+            "FluentEmail.Smtp": {
+              "target": "Package",
+              "version": "[3.0.0, )"
+            },
+            "Microsoft.AspNet.WebApi.Client": {
+              "target": "Package",
+              "version": "[5.2.7, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.12, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.402\\RuntimeIdentifierGraph.json"
         }
       }
     }

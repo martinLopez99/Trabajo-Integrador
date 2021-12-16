@@ -14,3 +14,11 @@ C:\Users\Tincho.DESKTOP-D357Q8G\Desktop\Tincho\Drive\UTN\4to año\Taller de Prog
 C:\Users\Tincho.DESKTOP-D357Q8G\Desktop\Tincho\Drive\UTN\4to año\Taller de Programacion\Trabajo Final\TrabajoIntegradorC#\Prestamos Biblioteca\Prestamos Biblioteca\obj\Debug\net5.0\ref\Prestamos Biblioteca.dll
 C:\Users\Tincho.DESKTOP-D357Q8G\Desktop\Tincho\Drive\UTN\4to año\Taller de Programacion\Trabajo Final\TrabajoIntegradorC#\Prestamos Biblioteca\Prestamos Biblioteca\obj\Debug\net5.0\Prestamos Biblioteca.pdb
 C:\Users\Tincho.DESKTOP-D357Q8G\Desktop\Tincho\Drive\UTN\4to año\Taller de Programacion\Trabajo Final\TrabajoIntegradorC#\Prestamos Biblioteca\Prestamos Biblioteca\obj\Debug\net5.0\Prestamos Biblioteca.genruntimeconfig.cache
+C:\Users\Blade\Source\Repos\Trabajo-Integrador\Prestamos Biblioteca\Prestamos Biblioteca\obj\Debug\net5.0\Prestamos Biblioteca.csproj.AssemblyReference.cache
+C:\Users\Blade\Source\Repos\Trabajo-Integrador\Prestamos Biblioteca\Prestamos Biblioteca\obj\Debug\net5.0\Prestamos Biblioteca.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Blade\Source\Repos\Trabajo-Integrador\Prestamos Biblioteca\Prestamos Biblioteca\obj\Debug\net5.0\Prestamos Biblioteca.AssemblyInfoInputs.cache
+C:\Users\Blade\Source\Repos\Trabajo-Integrador\Prestamos Biblioteca\Prestamos Biblioteca\obj\Debug\net5.0\Prestamos Biblioteca.AssemblyInfo.cs
+C:\Users\Blade\Source\Repos\Trabajo-Integrador\Prestamos Biblioteca\Prestamos Biblioteca\obj\Debug\net5.0\Prestamos Biblioteca.csproj.CoreCompileInputs.cache
+C:\Users\Blade\Source\Repos\Trabajo-Integrador\Prestamos Biblioteca\Prestamos Biblioteca\obj\Debug\net5.0\Prestamos Biblioteca.dll
+C:\Users\Blade\Source\Repos\Trabajo-Integrador\Prestamos Biblioteca\Prestamos Biblioteca\obj\Debug\net5.0\ref\Prestamos Biblioteca.dll
+C:\Users\Blade\Source\Repos\Trabajo-Integrador\Prestamos Biblioteca\Prestamos Biblioteca\obj\Debug\net5.0\Prestamos Biblioteca.pdb

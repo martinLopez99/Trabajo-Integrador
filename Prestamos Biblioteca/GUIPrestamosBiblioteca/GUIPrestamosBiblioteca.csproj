@@ -6,4 +6,8 @@
     <UseWindowsForms>true</UseWindowsForms>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Prestamos Biblioteca\Prestamos Biblioteca.csproj" />
+  </ItemGroup>
+
 </Project>
