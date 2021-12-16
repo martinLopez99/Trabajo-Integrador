@@ -93,6 +93,7 @@ namespace GUIPrestamosBiblioteca
             // 
             // MenuPrincipal
             // 
+            this.AcceptButton = this.salirBoton;
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(834, 473);
@@ -101,6 +102,7 @@ namespace GUIPrestamosBiblioteca
             this.Controls.Add(this.registrarUsuarioBoton);
             this.Controls.Add(this.registrarPrestamoBoton);
             this.Controls.Add(this.salirBoton);
+            this.MaximizeBox = false;
             this.MinimumSize = new System.Drawing.Size(850, 500);
             this.Name = "MenuPrincipal";
             this.Text = "MenuPrincipal";

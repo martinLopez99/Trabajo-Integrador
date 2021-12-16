@@ -38,12 +38,12 @@ namespace GUIPrestamosBiblioteca
             this.label1 = new System.Windows.Forms.Label();
             this.apellidoTextbox = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
-            this.fechaNacimientoTextBox = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
             this.contrasenia2Textbox = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
             this.registrarUsuarioBoton = new System.Windows.Forms.Button();
             this.salirBoton = new System.Windows.Forms.Button();
+            this.fechaNacimientoDatePicker = new System.Windows.Forms.DateTimePicker();
             this.SuspendLayout();
             // 
             // tituloPrincipal
@@ -65,7 +65,7 @@ namespace GUIPrestamosBiblioteca
             this.contraseniaTextbox.Location = new System.Drawing.Point(269, 267);
             this.contraseniaTextbox.Name = "contraseniaTextbox";
             this.contraseniaTextbox.PasswordChar = '*';
-            this.contraseniaTextbox.Size = new System.Drawing.Size(196, 27);
+            this.contraseniaTextbox.Size = new System.Drawing.Size(271, 27);
             this.contraseniaTextbox.TabIndex = 40;
             this.contraseniaTextbox.UseSystemPasswordChar = true;
             // 
@@ -74,7 +74,7 @@ namespace GUIPrestamosBiblioteca
             this.nombreUsuarioTextbox.Font = new System.Drawing.Font("Bahnschrift Light", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.nombreUsuarioTextbox.Location = new System.Drawing.Point(269, 219);
             this.nombreUsuarioTextbox.Name = "nombreUsuarioTextbox";
-            this.nombreUsuarioTextbox.Size = new System.Drawing.Size(196, 27);
+            this.nombreUsuarioTextbox.Size = new System.Drawing.Size(271, 27);
             this.nombreUsuarioTextbox.TabIndex = 30;
             // 
             // contrasenia
@@ -99,10 +99,11 @@ namespace GUIPrestamosBiblioteca
             // 
             // nombreTextbox
             // 
+            this.nombreTextbox.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper;
             this.nombreTextbox.Font = new System.Drawing.Font("Bahnschrift Light", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.nombreTextbox.Location = new System.Drawing.Point(269, 77);
             this.nombreTextbox.Name = "nombreTextbox";
-            this.nombreTextbox.Size = new System.Drawing.Size(196, 27);
+            this.nombreTextbox.Size = new System.Drawing.Size(271, 27);
             this.nombreTextbox.TabIndex = 1;
             // 
             // label1
@@ -121,7 +122,7 @@ namespace GUIPrestamosBiblioteca
             this.apellidoTextbox.Font = new System.Drawing.Font("Bahnschrift Light", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.apellidoTextbox.Location = new System.Drawing.Point(269, 122);
             this.apellidoTextbox.Name = "apellidoTextbox";
-            this.apellidoTextbox.Size = new System.Drawing.Size(196, 27);
+            this.apellidoTextbox.Size = new System.Drawing.Size(271, 27);
             this.apellidoTextbox.TabIndex = 10;
             // 
             // label2
@@ -133,14 +134,6 @@ namespace GUIPrestamosBiblioteca
             this.label2.Size = new System.Drawing.Size(73, 19);
             this.label2.TabIndex = 18;
             this.label2.Text = "Apellido:";
-            // 
-            // fechaNacimientoTextBox
-            // 
-            this.fechaNacimientoTextBox.Font = new System.Drawing.Font("Bahnschrift Light", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.fechaNacimientoTextBox.Location = new System.Drawing.Point(269, 171);
-            this.fechaNacimientoTextBox.Name = "fechaNacimientoTextBox";
-            this.fechaNacimientoTextBox.Size = new System.Drawing.Size(196, 27);
-            this.fechaNacimientoTextBox.TabIndex = 20;
             // 
             // label3
             // 
@@ -158,7 +151,7 @@ namespace GUIPrestamosBiblioteca
             this.contrasenia2Textbox.Location = new System.Drawing.Point(269, 313);
             this.contrasenia2Textbox.Name = "contrasenia2Textbox";
             this.contrasenia2Textbox.PasswordChar = '*';
-            this.contrasenia2Textbox.Size = new System.Drawing.Size(196, 27);
+            this.contrasenia2Textbox.Size = new System.Drawing.Size(271, 27);
             this.contrasenia2Textbox.TabIndex = 50;
             this.contrasenia2Textbox.UseSystemPasswordChar = true;
             // 
@@ -175,18 +168,18 @@ namespace GUIPrestamosBiblioteca
             // registrarUsuarioBoton
             // 
             this.registrarUsuarioBoton.Font = new System.Drawing.Font("Bahnschrift Light", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.registrarUsuarioBoton.Location = new System.Drawing.Point(230, 372);
+            this.registrarUsuarioBoton.Location = new System.Drawing.Point(269, 374);
             this.registrarUsuarioBoton.Name = "registrarUsuarioBoton";
             this.registrarUsuarioBoton.Size = new System.Drawing.Size(150, 33);
             this.registrarUsuarioBoton.TabIndex = 60;
             this.registrarUsuarioBoton.Text = "Crear Usuario";
             this.registrarUsuarioBoton.UseVisualStyleBackColor = true;
+            this.registrarUsuarioBoton.Click += new System.EventHandler(this.registrarUsuarioBoton_Click);
             // 
             // salirBoton
             // 
-            this.salirBoton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.salirBoton.Font = new System.Drawing.Font("Bahnschrift Condensed", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.salirBoton.Location = new System.Drawing.Point(514, 406);
+            this.salirBoton.Location = new System.Drawing.Point(584, 421);
             this.salirBoton.Name = "salirBoton";
             this.salirBoton.Size = new System.Drawing.Size(88, 33);
             this.salirBoton.TabIndex = 70;
@@ -194,16 +187,28 @@ namespace GUIPrestamosBiblioteca
             this.salirBoton.UseVisualStyleBackColor = true;
             this.salirBoton.Click += new System.EventHandler(this.salirBoton_Click);
             // 
+            // fechaNacimientoDatePicker
+            // 
+            this.fechaNacimientoDatePicker.Font = new System.Drawing.Font("Bahnschrift Light SemiCondensed", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.fechaNacimientoDatePicker.Location = new System.Drawing.Point(269, 172);
+            this.fechaNacimientoDatePicker.MaxDate = new System.DateTime(2010, 12, 31, 0, 0, 0, 0);
+            this.fechaNacimientoDatePicker.MinDate = new System.DateTime(1900, 1, 1, 0, 0, 0, 0);
+            this.fechaNacimientoDatePicker.Name = "fechaNacimientoDatePicker";
+            this.fechaNacimientoDatePicker.Size = new System.Drawing.Size(271, 26);
+            this.fechaNacimientoDatePicker.TabIndex = 20;
+            this.fechaNacimientoDatePicker.Value = new System.DateTime(2000, 12, 31, 0, 0, 0, 0);
+            // 
             // NuevoUsuario
             // 
+            this.AcceptButton = this.salirBoton;
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(614, 451);
+            this.ClientSize = new System.Drawing.Size(684, 466);
+            this.Controls.Add(this.fechaNacimientoDatePicker);
             this.Controls.Add(this.salirBoton);
             this.Controls.Add(this.registrarUsuarioBoton);
             this.Controls.Add(this.contrasenia2Textbox);
             this.Controls.Add(this.label4);
-            this.Controls.Add(this.fechaNacimientoTextBox);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.apellidoTextbox);
             this.Controls.Add(this.label2);
@@ -214,7 +219,8 @@ namespace GUIPrestamosBiblioteca
             this.Controls.Add(this.contrasenia);
             this.Controls.Add(this.nombreUsuario);
             this.Controls.Add(this.tituloPrincipal);
-            this.MinimumSize = new System.Drawing.Size(630, 490);
+            this.MaximizeBox = false;
+            this.MinimumSize = new System.Drawing.Size(700, 505);
             this.Name = "NuevoUsuario";
             this.Text = "NuevoUsuario";
             this.ResumeLayout(false);
@@ -233,11 +239,11 @@ namespace GUIPrestamosBiblioteca
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.TextBox apellidoTextbox;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.TextBox fechaNacimientoTextBox;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.TextBox contrasenia2Textbox;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Button registrarUsuarioBoton;
         private System.Windows.Forms.Button salirBoton;
+        private System.Windows.Forms.DateTimePicker fechaNacimientoDatePicker;
     }
 }

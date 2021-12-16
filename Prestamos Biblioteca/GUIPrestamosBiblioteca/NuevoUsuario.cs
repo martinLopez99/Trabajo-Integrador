@@ -39,5 +39,15 @@ namespace GUIPrestamosBiblioteca
         }
 
         #endregion
+
+        /// <summary>
+        /// Recolecta la informacion ingresada por el usuario y la envia a la fachada
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void registrarUsuarioBoton_Click(object sender, EventArgs e)
+        {
+            
+        }
     }
 }
