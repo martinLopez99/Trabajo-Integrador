@@ -9,12 +9,18 @@ using System.Net.Http.Headers;
 
 namespace Prestamos_Biblioteca.Dominio
 {
+    /// <summary>
+    /// Una entidad central de la aplicacion
+    /// </summary>
     public class Libro
     {
+        #region Atributos Privados
 
         private int iISBN10;
         private string iTitulo;
         private string iSubtitulo;
+
+        #endregion
 
         #region Constructor
         public Libro(int pISBN10, string pTitulo, string pSubtitulo)
@@ -25,7 +31,8 @@ namespace Prestamos_Biblioteca.Dominio
         }
         #endregion
 
-        #region Propiedades de la Clase
+        #region Propiedades Publicas
+
         public int isbn
         {
             get { return this.iISBN10; }
@@ -53,8 +60,8 @@ namespace Prestamos_Biblioteca.Dominio
         public List<Tematica> subject { get; set; }
 
         //public List<Ejemplar> Ejemplares { get; set; }
-        #endregion
 
+        #endregion
 
     }
 }

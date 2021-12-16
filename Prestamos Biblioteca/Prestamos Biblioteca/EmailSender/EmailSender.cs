@@ -11,6 +11,11 @@ namespace Prestamos_Biblioteca.EmailSender
 {
     class EmailSender
     {
+        /// <summary>
+        /// Envia una notificacion al Cliente del <see cref="Prestamo"/> por mail
+        /// </summary>
+        /// <param name="pPrestamo"></param>
+        /// <returns></returns>
         static async Task SendExpiringNotification(Prestamo pPrestamo)
         {
             var sender = new SmtpSender(new SmtpClient("smtp.gmail.com")
@@ -40,7 +45,7 @@ namespace Prestamos_Biblioteca.EmailSender
                 .UsingTemplate(template.ToString(), new
                 {
                     FirstName = pPrestamo.Usuario.Nombre + pPrestamo.Usuario.Apellido,
-                    ProductName = pPrestamo.Ejemplar.Libro.Titulo,
+                    ProductName = pPrestamo.Ejemplar.Libro.title,
                     ExpiringDate = pPrestamo.FechaDevolucionEstimada
                 })
                 //.Body("Esto es un mail de prueba")

@@ -6,9 +6,10 @@ using System.Threading.Tasks;
 
 namespace Prestamos_Biblioteca.Dominio
 {
-
-    public class Usuario
+   public class Usuario
     {
+        #region Atributos Privados
+
         private int iDNI;
         private string iNombre;
         private string iApellido;
@@ -18,6 +19,10 @@ namespace Prestamos_Biblioteca.Dominio
 
         private string nombreUsuario;
         private string contrasenia;
+
+        #endregion
+
+        #region Constructores
 
         public Usuario(int pDNI, string pNombre, string pApellido, string pEmail, TimeSpan pFechaNacimiento, bool pEsAdministrador)
         {
@@ -37,6 +42,10 @@ namespace Prestamos_Biblioteca.Dominio
             this.nombreUsuario = pNombreUsuario;
             this.contrasenia = pContrasenia;
         }
+
+        #endregion
+
+        #region Propiedades Publicas
 
         public int DNI
         {
@@ -85,6 +94,8 @@ namespace Prestamos_Biblioteca.Dominio
             get { return this.iEsAdminsitrador; }
             private set { }
         }
+
+        #endregion
 
     }
 

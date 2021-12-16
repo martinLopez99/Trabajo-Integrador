@@ -6,9 +6,13 @@ using System.Threading.Tasks;
 
 namespace Prestamos_Biblioteca.Dominio
 {
-
+    /// <summary>
+    /// Una entidad central de la aplicacion
+    /// </summary>
     public class Prestamo
     {
+        #region Atributos Privados
+
         private int iNumero;
         private Usuario iUsuario;
         private Ejemplar iEjemplar;
@@ -18,6 +22,9 @@ namespace Prestamos_Biblioteca.Dominio
         private EstadoDevolucion iCondicionDevolucion;
         private string iComentarios;
 
+        #endregion
+
+        #region Constructor
 
         public Prestamo(int pNumero, Usuario pUsuario, Ejemplar pEjemplar, TimeSpan pFechaInicio, TimeSpan pFechaDevolucionEstimada)
         {
@@ -30,6 +37,10 @@ namespace Prestamos_Biblioteca.Dominio
             this.iCondicionDevolucion = EstadoDevolucion.sinDevolver;
             this.iComentarios = "";
         }
+
+        #endregion
+
+        #region Propiedades Privadas
 
         public int Numero
         {
@@ -78,6 +89,10 @@ namespace Prestamos_Biblioteca.Dominio
             private set { }
         }
 
+        #endregion
+
+        #region Metodos Publicos 
+
         public void AsignarFechaDevolucionEfectiva(TimeSpan pFechaDevolucionEfectiva)
         {
             this.FechaDevolucionEfectiva = pFechaDevolucionEfectiva;
@@ -92,6 +107,8 @@ namespace Prestamos_Biblioteca.Dominio
         {
             this.iCondicionDevolucion = pCondicionDevolucion;
         }
+
+        #endregion
     }
 
 }
