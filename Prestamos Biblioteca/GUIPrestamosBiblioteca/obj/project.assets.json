@@ -8,19 +8,19 @@
     "net5.0-windows7.0": []
   },
   "packageFolders": {
-    "C:\\Users\\Tincho.DESKTOP-D357Q8G\\.nuget\\packages\\": {}
+    "C:\\Users\\Blade\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Tincho.DESKTOP-D357Q8G\\Desktop\\Tincho\\Drive\\UTN\\4to año\\Taller de Programacion\\Trabajo Final\\TrabajoIntegradorC#\\Prestamos Biblioteca\\GUIPrestamosBiblioteca\\GUIPrestamosBiblioteca.csproj",
+      "projectUniqueName": "C:\\Users\\Blade\\Source\\Repos\\Trabajo-Integrador\\Prestamos Biblioteca\\GUIPrestamosBiblioteca\\GUIPrestamosBiblioteca.csproj",
       "projectName": "GUIPrestamosBiblioteca",
-      "projectPath": "C:\\Users\\Tincho.DESKTOP-D357Q8G\\Desktop\\Tincho\\Drive\\UTN\\4to año\\Taller de Programacion\\Trabajo Final\\TrabajoIntegradorC#\\Prestamos Biblioteca\\GUIPrestamosBiblioteca\\GUIPrestamosBiblioteca.csproj",
-      "packagesPath": "C:\\Users\\Tincho.DESKTOP-D357Q8G\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Tincho.DESKTOP-D357Q8G\\Desktop\\Tincho\\Drive\\UTN\\4to año\\Taller de Programacion\\Trabajo Final\\TrabajoIntegradorC#\\Prestamos Biblioteca\\GUIPrestamosBiblioteca\\obj\\",
+      "projectPath": "C:\\Users\\Blade\\Source\\Repos\\Trabajo-Integrador\\Prestamos Biblioteca\\GUIPrestamosBiblioteca\\GUIPrestamosBiblioteca.csproj",
+      "packagesPath": "C:\\Users\\Blade\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Blade\\Source\\Repos\\Trabajo-Integrador\\Prestamos Biblioteca\\GUIPrestamosBiblioteca\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Tincho.DESKTOP-D357Q8G\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Blade\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -63,7 +63,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.302\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.402\\RuntimeIdentifierGraph.json"
       }
     }
   }

@@ -43,7 +43,7 @@ namespace GUIPrestamosBiblioteca
             this.salirBoton.Location = new System.Drawing.Point(734, 428);
             this.salirBoton.Name = "salirBoton";
             this.salirBoton.Size = new System.Drawing.Size(88, 33);
-            this.salirBoton.TabIndex = 3;
+            this.salirBoton.TabIndex = 40;
             this.salirBoton.Text = "Salir";
             this.salirBoton.UseVisualStyleBackColor = true;
             this.salirBoton.Click += new System.EventHandler(this.salirBoton_Click);
@@ -54,7 +54,7 @@ namespace GUIPrestamosBiblioteca
             this.registrarPrestamoBoton.Location = new System.Drawing.Point(59, 195);
             this.registrarPrestamoBoton.Name = "registrarPrestamoBoton";
             this.registrarPrestamoBoton.Size = new System.Drawing.Size(251, 43);
-            this.registrarPrestamoBoton.TabIndex = 4;
+            this.registrarPrestamoBoton.TabIndex = 20;
             this.registrarPrestamoBoton.Text = "Registrar un Nuevo Prestamo";
             this.registrarPrestamoBoton.UseVisualStyleBackColor = true;
             // 
@@ -64,7 +64,7 @@ namespace GUIPrestamosBiblioteca
             this.registrarUsuarioBoton.Location = new System.Drawing.Point(59, 113);
             this.registrarUsuarioBoton.Name = "registrarUsuarioBoton";
             this.registrarUsuarioBoton.Size = new System.Drawing.Size(251, 43);
-            this.registrarUsuarioBoton.TabIndex = 8;
+            this.registrarUsuarioBoton.TabIndex = 10;
             this.registrarUsuarioBoton.Text = "Registrar un Nuevo Usuario";
             this.registrarUsuarioBoton.UseVisualStyleBackColor = true;
             // 
@@ -74,7 +74,7 @@ namespace GUIPrestamosBiblioteca
             this.buscarEnSistemaBoton.Location = new System.Drawing.Point(532, 113);
             this.buscarEnSistemaBoton.Name = "buscarEnSistemaBoton";
             this.buscarEnSistemaBoton.Size = new System.Drawing.Size(198, 43);
-            this.buscarEnSistemaBoton.TabIndex = 9;
+            this.buscarEnSistemaBoton.TabIndex = 30;
             this.buscarEnSistemaBoton.Text = "Buscar en el Sistema";
             this.buscarEnSistemaBoton.UseVisualStyleBackColor = true;
             // 

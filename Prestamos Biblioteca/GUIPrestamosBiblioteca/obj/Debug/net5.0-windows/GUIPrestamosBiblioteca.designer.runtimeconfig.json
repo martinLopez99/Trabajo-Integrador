@@ -6,8 +6,8 @@
       "version": "5.0.0"
     },
     "additionalProbingPaths": [
-      "C:\\Users\\Tincho.DESKTOP-D357Q8G\\.dotnet\\store\\|arch|\\|tfm|",
-      "C:\\Users\\Tincho.DESKTOP-D357Q8G\\.nuget\\packages"
+      "C:\\Users\\Blade\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\Blade\\.nuget\\packages"
     ],
     "configProperties": {
       "Microsoft.NETCore.DotNetHostPolicy.SetAppPaths": true

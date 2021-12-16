@@ -36,6 +36,7 @@ namespace GUIPrestamosBiblioteca
             this.contrasenia = new System.Windows.Forms.Label();
             this.nombreUsuario = new System.Windows.Forms.Label();
             this.contraseniaTextbox = new System.Windows.Forms.TextBox();
+            this.nuevoUsuarioBoton = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // tituloPrincipal
@@ -57,7 +58,7 @@ namespace GUIPrestamosBiblioteca
             this.iniciarSesionBoton.Location = new System.Drawing.Point(272, 202);
             this.iniciarSesionBoton.Name = "iniciarSesionBoton";
             this.iniciarSesionBoton.Size = new System.Drawing.Size(130, 43);
-            this.iniciarSesionBoton.TabIndex = 1;
+            this.iniciarSesionBoton.TabIndex = 30;
             this.iniciarSesionBoton.Text = "Iniciar Sesión";
             this.iniciarSesionBoton.UseVisualStyleBackColor = true;
             this.iniciarSesionBoton.Click += new System.EventHandler(this.iniciarSesionBoton_Click);
@@ -69,7 +70,7 @@ namespace GUIPrestamosBiblioteca
             this.salirBoton.Location = new System.Drawing.Point(584, 266);
             this.salirBoton.Name = "salirBoton";
             this.salirBoton.Size = new System.Drawing.Size(88, 33);
-            this.salirBoton.TabIndex = 2;
+            this.salirBoton.TabIndex = 50;
             this.salirBoton.Text = "Salir";
             this.salirBoton.UseVisualStyleBackColor = true;
             this.salirBoton.Click += new System.EventHandler(this.salirBoton_Click);
@@ -80,7 +81,7 @@ namespace GUIPrestamosBiblioteca
             this.nombreUsuarioTextbox.Location = new System.Drawing.Point(268, 86);
             this.nombreUsuarioTextbox.Name = "nombreUsuarioTextbox";
             this.nombreUsuarioTextbox.Size = new System.Drawing.Size(196, 27);
-            this.nombreUsuarioTextbox.TabIndex = 5;
+            this.nombreUsuarioTextbox.TabIndex = 10;
             // 
             // contrasenia
             // 
@@ -109,8 +110,23 @@ namespace GUIPrestamosBiblioteca
             this.contraseniaTextbox.Name = "contraseniaTextbox";
             this.contraseniaTextbox.PasswordChar = '*';
             this.contraseniaTextbox.Size = new System.Drawing.Size(196, 27);
-            this.contraseniaTextbox.TabIndex = 6;
+            this.contraseniaTextbox.TabIndex = 20;
             this.contraseniaTextbox.UseSystemPasswordChar = true;
+            // 
+            // nuevoUsuarioBoton
+            // 
+            this.nuevoUsuarioBoton.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.nuevoUsuarioBoton.Font = new System.Drawing.Font("Bahnschrift Condensed", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.nuevoUsuarioBoton.ForeColor = System.Drawing.Color.Black;
+            this.nuevoUsuarioBoton.Location = new System.Drawing.Point(12, 266);
+            this.nuevoUsuarioBoton.Name = "nuevoUsuarioBoton";
+            this.nuevoUsuarioBoton.Size = new System.Drawing.Size(113, 33);
+            this.nuevoUsuarioBoton.TabIndex = 40;
+            this.nuevoUsuarioBoton.Text = "Crear un Usuario";
+            this.nuevoUsuarioBoton.UseVisualStyleBackColor = true;
+            this.nuevoUsuarioBoton.Click += new System.EventHandler(this.nuevoUsuarioBoton_Click);
             // 
             // IniciarSesion
             // 
@@ -118,6 +134,7 @@ namespace GUIPrestamosBiblioteca
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Snow;
             this.ClientSize = new System.Drawing.Size(684, 311);
+            this.Controls.Add(this.nuevoUsuarioBoton);
             this.Controls.Add(this.contraseniaTextbox);
             this.Controls.Add(this.nombreUsuarioTextbox);
             this.Controls.Add(this.contrasenia);
@@ -144,6 +161,7 @@ namespace GUIPrestamosBiblioteca
         private System.Windows.Forms.Label contrasenia;
         private System.Windows.Forms.Label nombreUsuario;
         private System.Windows.Forms.TextBox contraseniaTextbox;
+        private System.Windows.Forms.Button nuevoUsuarioBoton;
     }
 }
 

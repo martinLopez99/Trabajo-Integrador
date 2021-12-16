@@ -10,11 +10,11 @@ using System.Windows.Forms;
 
 namespace GUIPrestamosBiblioteca
 {
-    public partial class MenuPrincipal : Form
+    public partial class NuevoUsuario : Form
     {
         #region Constructor
 
-        public MenuPrincipal()
+        public NuevoUsuario()
         {
             InitializeComponent();
         }
@@ -22,6 +22,11 @@ namespace GUIPrestamosBiblioteca
         #endregion
 
         #region Botones
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
 
         /// <summary>
         /// Cierra la ventana actual
@@ -32,8 +37,7 @@ namespace GUIPrestamosBiblioteca
         {
             this.Close();
         }
-        
-        #endregion 
 
+        #endregion
     }
 }
