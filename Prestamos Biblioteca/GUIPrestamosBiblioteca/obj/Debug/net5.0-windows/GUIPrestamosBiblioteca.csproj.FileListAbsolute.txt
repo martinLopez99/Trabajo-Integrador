@@ -18,3 +18,58 @@ C:\Users\Blade\Source\Repos\Trabajo-Integrador\Prestamos Biblioteca\GUIPrestamos
 C:\Users\Blade\Source\Repos\Trabajo-Integrador\Prestamos Biblioteca\GUIPrestamosBiblioteca\obj\Debug\net5.0-windows\GUIPrestamosBiblioteca.IniciarSesion.resources
 C:\Users\Blade\Source\Repos\Trabajo-Integrador\Prestamos Biblioteca\GUIPrestamosBiblioteca\obj\Debug\net5.0-windows\GUIPrestamosBiblioteca.MenuPrincipal.resources
 C:\Users\Blade\Source\Repos\Trabajo-Integrador\Prestamos Biblioteca\GUIPrestamosBiblioteca\obj\Debug\net5.0-windows\GUIPrestamosBiblioteca.NuevoUsuario.resources
+C:\Users\Blade\Source\Repos\Trabajo-Integrador\Prestamos Biblioteca\GUIPrestamosBiblioteca\bin\Debug\net5.0-windows\Prestamos Biblioteca.deps.json
+C:\Users\Blade\Source\Repos\Trabajo-Integrador\Prestamos Biblioteca\GUIPrestamosBiblioteca\bin\Debug\net5.0-windows\Prestamos Biblioteca.runtimeconfig.json
+C:\Users\Blade\Source\Repos\Trabajo-Integrador\Prestamos Biblioteca\GUIPrestamosBiblioteca\bin\Debug\net5.0-windows\Prestamos Biblioteca.runtimeconfig.dev.json
+C:\Users\Blade\Source\Repos\Trabajo-Integrador\Prestamos Biblioteca\GUIPrestamosBiblioteca\bin\Debug\net5.0-windows\Prestamos Biblioteca.exe
+C:\Users\Blade\Source\Repos\Trabajo-Integrador\Prestamos Biblioteca\GUIPrestamosBiblioteca\bin\Debug\net5.0-windows\FluentEmail.Core.dll
+C:\Users\Blade\Source\Repos\Trabajo-Integrador\Prestamos Biblioteca\GUIPrestamosBiblioteca\bin\Debug\net5.0-windows\FluentEmail.Razor.dll
+C:\Users\Blade\Source\Repos\Trabajo-Integrador\Prestamos Biblioteca\GUIPrestamosBiblioteca\bin\Debug\net5.0-windows\FluentEmail.Smtp.dll
+C:\Users\Blade\Source\Repos\Trabajo-Integrador\Prestamos Biblioteca\GUIPrestamosBiblioteca\bin\Debug\net5.0-windows\System.Net.Http.Formatting.dll
+C:\Users\Blade\Source\Repos\Trabajo-Integrador\Prestamos Biblioteca\GUIPrestamosBiblioteca\bin\Debug\net5.0-windows\Microsoft.AspNetCore.Mvc.Razor.Extensions.dll
+C:\Users\Blade\Source\Repos\Trabajo-Integrador\Prestamos Biblioteca\GUIPrestamosBiblioteca\bin\Debug\net5.0-windows\Microsoft.AspNetCore.Razor.Language.dll
+C:\Users\Blade\Source\Repos\Trabajo-Integrador\Prestamos Biblioteca\GUIPrestamosBiblioteca\bin\Debug\net5.0-windows\Microsoft.CodeAnalysis.dll
+C:\Users\Blade\Source\Repos\Trabajo-Integrador\Prestamos Biblioteca\GUIPrestamosBiblioteca\bin\Debug\net5.0-windows\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Blade\Source\Repos\Trabajo-Integrador\Prestamos Biblioteca\GUIPrestamosBiblioteca\bin\Debug\net5.0-windows\Microsoft.CodeAnalysis.Razor.dll
+C:\Users\Blade\Source\Repos\Trabajo-Integrador\Prestamos Biblioteca\GUIPrestamosBiblioteca\bin\Debug\net5.0-windows\Microsoft.EntityFrameworkCore.dll
+C:\Users\Blade\Source\Repos\Trabajo-Integrador\Prestamos Biblioteca\GUIPrestamosBiblioteca\bin\Debug\net5.0-windows\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\Blade\Source\Repos\Trabajo-Integrador\Prestamos Biblioteca\GUIPrestamosBiblioteca\bin\Debug\net5.0-windows\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\Blade\Source\Repos\Trabajo-Integrador\Prestamos Biblioteca\GUIPrestamosBiblioteca\bin\Debug\net5.0-windows\Microsoft.Extensions.DependencyModel.dll
+C:\Users\Blade\Source\Repos\Trabajo-Integrador\Prestamos Biblioteca\GUIPrestamosBiblioteca\bin\Debug\net5.0-windows\Newtonsoft.Json.dll
+C:\Users\Blade\Source\Repos\Trabajo-Integrador\Prestamos Biblioteca\GUIPrestamosBiblioteca\bin\Debug\net5.0-windows\Newtonsoft.Json.Bson.dll
+C:\Users\Blade\Source\Repos\Trabajo-Integrador\Prestamos Biblioteca\GUIPrestamosBiblioteca\bin\Debug\net5.0-windows\NuGet.Common.dll
+C:\Users\Blade\Source\Repos\Trabajo-Integrador\Prestamos Biblioteca\GUIPrestamosBiblioteca\bin\Debug\net5.0-windows\NuGet.Configuration.dll
+C:\Users\Blade\Source\Repos\Trabajo-Integrador\Prestamos Biblioteca\GUIPrestamosBiblioteca\bin\Debug\net5.0-windows\NuGet.Frameworks.dll
+C:\Users\Blade\Source\Repos\Trabajo-Integrador\Prestamos Biblioteca\GUIPrestamosBiblioteca\bin\Debug\net5.0-windows\NuGet.Packaging.dll
+C:\Users\Blade\Source\Repos\Trabajo-Integrador\Prestamos Biblioteca\GUIPrestamosBiblioteca\bin\Debug\net5.0-windows\NuGet.Protocol.dll
+C:\Users\Blade\Source\Repos\Trabajo-Integrador\Prestamos Biblioteca\GUIPrestamosBiblioteca\bin\Debug\net5.0-windows\NuGet.Versioning.dll
+C:\Users\Blade\Source\Repos\Trabajo-Integrador\Prestamos Biblioteca\GUIPrestamosBiblioteca\bin\Debug\net5.0-windows\RazorLight.dll
+C:\Users\Blade\Source\Repos\Trabajo-Integrador\Prestamos Biblioteca\GUIPrestamosBiblioteca\bin\Debug\net5.0-windows\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Blade\Source\Repos\Trabajo-Integrador\Prestamos Biblioteca\GUIPrestamosBiblioteca\bin\Debug\net5.0-windows\cs\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Blade\Source\Repos\Trabajo-Integrador\Prestamos Biblioteca\GUIPrestamosBiblioteca\bin\Debug\net5.0-windows\de\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Blade\Source\Repos\Trabajo-Integrador\Prestamos Biblioteca\GUIPrestamosBiblioteca\bin\Debug\net5.0-windows\es\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Blade\Source\Repos\Trabajo-Integrador\Prestamos Biblioteca\GUIPrestamosBiblioteca\bin\Debug\net5.0-windows\fr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Blade\Source\Repos\Trabajo-Integrador\Prestamos Biblioteca\GUIPrestamosBiblioteca\bin\Debug\net5.0-windows\it\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Blade\Source\Repos\Trabajo-Integrador\Prestamos Biblioteca\GUIPrestamosBiblioteca\bin\Debug\net5.0-windows\ja\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Blade\Source\Repos\Trabajo-Integrador\Prestamos Biblioteca\GUIPrestamosBiblioteca\bin\Debug\net5.0-windows\ko\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Blade\Source\Repos\Trabajo-Integrador\Prestamos Biblioteca\GUIPrestamosBiblioteca\bin\Debug\net5.0-windows\pl\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Blade\Source\Repos\Trabajo-Integrador\Prestamos Biblioteca\GUIPrestamosBiblioteca\bin\Debug\net5.0-windows\pt-BR\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Blade\Source\Repos\Trabajo-Integrador\Prestamos Biblioteca\GUIPrestamosBiblioteca\bin\Debug\net5.0-windows\ru\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Blade\Source\Repos\Trabajo-Integrador\Prestamos Biblioteca\GUIPrestamosBiblioteca\bin\Debug\net5.0-windows\tr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Blade\Source\Repos\Trabajo-Integrador\Prestamos Biblioteca\GUIPrestamosBiblioteca\bin\Debug\net5.0-windows\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Blade\Source\Repos\Trabajo-Integrador\Prestamos Biblioteca\GUIPrestamosBiblioteca\bin\Debug\net5.0-windows\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Blade\Source\Repos\Trabajo-Integrador\Prestamos Biblioteca\GUIPrestamosBiblioteca\bin\Debug\net5.0-windows\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Blade\Source\Repos\Trabajo-Integrador\Prestamos Biblioteca\GUIPrestamosBiblioteca\bin\Debug\net5.0-windows\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Blade\Source\Repos\Trabajo-Integrador\Prestamos Biblioteca\GUIPrestamosBiblioteca\bin\Debug\net5.0-windows\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Blade\Source\Repos\Trabajo-Integrador\Prestamos Biblioteca\GUIPrestamosBiblioteca\bin\Debug\net5.0-windows\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Blade\Source\Repos\Trabajo-Integrador\Prestamos Biblioteca\GUIPrestamosBiblioteca\bin\Debug\net5.0-windows\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Blade\Source\Repos\Trabajo-Integrador\Prestamos Biblioteca\GUIPrestamosBiblioteca\bin\Debug\net5.0-windows\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Blade\Source\Repos\Trabajo-Integrador\Prestamos Biblioteca\GUIPrestamosBiblioteca\bin\Debug\net5.0-windows\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Blade\Source\Repos\Trabajo-Integrador\Prestamos Biblioteca\GUIPrestamosBiblioteca\bin\Debug\net5.0-windows\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Blade\Source\Repos\Trabajo-Integrador\Prestamos Biblioteca\GUIPrestamosBiblioteca\bin\Debug\net5.0-windows\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Blade\Source\Repos\Trabajo-Integrador\Prestamos Biblioteca\GUIPrestamosBiblioteca\bin\Debug\net5.0-windows\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Blade\Source\Repos\Trabajo-Integrador\Prestamos Biblioteca\GUIPrestamosBiblioteca\bin\Debug\net5.0-windows\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Blade\Source\Repos\Trabajo-Integrador\Prestamos Biblioteca\GUIPrestamosBiblioteca\bin\Debug\net5.0-windows\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Blade\Source\Repos\Trabajo-Integrador\Prestamos Biblioteca\GUIPrestamosBiblioteca\bin\Debug\net5.0-windows\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Blade\Source\Repos\Trabajo-Integrador\Prestamos Biblioteca\GUIPrestamosBiblioteca\bin\Debug\net5.0-windows\Prestamos Biblioteca.dll
+C:\Users\Blade\Source\Repos\Trabajo-Integrador\Prestamos Biblioteca\GUIPrestamosBiblioteca\bin\Debug\net5.0-windows\Prestamos Biblioteca.pdb

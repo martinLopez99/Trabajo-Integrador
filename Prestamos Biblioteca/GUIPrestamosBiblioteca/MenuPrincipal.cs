@@ -28,7 +28,7 @@ namespace GUIPrestamosBiblioteca
         /// </summary>
         /// <param name="sender"></param>
         /// <param name="e"></param>
-        private void salirBoton_Click(object sender, EventArgs e)
+        private void cerrarSesionBoton_Click(object sender, EventArgs e)
         {
             this.Close();
         }

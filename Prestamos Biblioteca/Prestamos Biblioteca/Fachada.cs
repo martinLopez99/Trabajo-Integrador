@@ -19,9 +19,10 @@ namespace Prestamos_Biblioteca
         /// <param name="pFechaNacimiento">Fecha de nacimiento del usuario</param>
         /// <param name="pNombreUsuario">Nombre de usuario del usuario</param>
         /// <param name="pContrasenia">Contraseña del usuario</param>
-        public static void RegistrarUsuario(string pNombre, string pApellido, TimeSpan pFechaNacimiento, string pNombreUsuario, string pContrasenia)
+        public static void RegistrarUsuario(string pNombre, string pApellido, string pNombreUsuario, string pContrasenia)
         {
-            Usuario unUsuario = new Usuario(pNombre, pApellido, pFechaNacimiento, pNombreUsuario, pContrasenia);
+            
+            Usuario unUsuario = new Usuario(pNombre, pApellido, pNombreUsuario, pContrasenia);
 
         }
 

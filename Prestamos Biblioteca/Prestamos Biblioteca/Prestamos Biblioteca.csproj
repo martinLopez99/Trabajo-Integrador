@@ -12,6 +12,7 @@
     <PackageReference Include="FluentEmail.Smtp" Version="3.0.0" />
     <PackageReference Include="Microsoft.AspNet.WebApi.Client" Version="5.2.7" />
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="5.0.12" />
+    <PackageReference Include="NuGet.Protocol" Version="6.0.0" />
   </ItemGroup>
 
 </Project>

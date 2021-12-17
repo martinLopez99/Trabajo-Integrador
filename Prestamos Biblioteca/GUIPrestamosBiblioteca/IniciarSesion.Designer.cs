@@ -115,9 +115,7 @@ namespace GUIPrestamosBiblioteca
             // 
             // nuevoUsuarioBoton
             // 
-            this.nuevoUsuarioBoton.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
+            this.nuevoUsuarioBoton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.nuevoUsuarioBoton.Font = new System.Drawing.Font("Bahnschrift Condensed", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.nuevoUsuarioBoton.ForeColor = System.Drawing.Color.Black;
             this.nuevoUsuarioBoton.Location = new System.Drawing.Point(12, 266);
@@ -148,7 +146,6 @@ namespace GUIPrestamosBiblioteca
             this.MinimumSize = new System.Drawing.Size(700, 350);
             this.Name = "IniciarSesion";
             this.Text = "Form1";
-            this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

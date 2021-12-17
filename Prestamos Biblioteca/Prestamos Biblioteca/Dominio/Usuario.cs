@@ -34,11 +34,10 @@ namespace Prestamos_Biblioteca.Dominio
             this.iEsAdminsitrador = pEsAdministrador;
         }
 
-        public Usuario(string pNombre, string pApellido, TimeSpan pFechaNacimiento, string pNombreUsuario, string pContrasenia)
+        public Usuario(string pNombre, string pApellido, string pNombreUsuario, string pContrasenia)
         {
             this.iNombre = pNombre;
             this.iApellido = pApellido;
-            this.iFechaNacimiento = pFechaNacimiento;
             this.nombreUsuario = pNombreUsuario;
             this.contrasenia = pContrasenia;
         }
@@ -73,7 +72,7 @@ namespace Prestamos_Biblioteca.Dominio
 
         public string Contrasenia
         {
-            get { return this.contrasenia}
+            get { return this.contrasenia; }
             private set { }
         }
 

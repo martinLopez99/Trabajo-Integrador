@@ -21,8 +21,8 @@ namespace Prestamos_Biblioteca.DAL.EntityFramework
             }
 
             this.iDbContext = pDbContext;
-            this.LibroRepository = new LibroRepository(pDbContext);
-            this.UsuarioRepository = new UsuarioRepository(pDbContext);
+            //this.LibroRepository = new LibroRepository(pDbContext);
+            //this.UsuarioRepository = new UsuarioRepository(pDbContext);
         }
 
         public ILibroRepository LibroRepository { get; private set; }

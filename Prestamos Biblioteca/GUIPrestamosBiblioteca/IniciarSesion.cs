@@ -21,19 +21,6 @@ namespace GUIPrestamosBiblioteca
 
         #endregion
 
-        #region Form Loader
-
-        /// <summary>
-        /// Carga la Form
-        /// </summary>
-        /// <param name="sender"></param>
-        /// <param name="e"></param>
-        private void Form1_Load(object sender, EventArgs e)
-        {
-
-        }
-
-        #endregion
 
         #region Botones
 
@@ -88,5 +75,10 @@ namespace GUIPrestamosBiblioteca
         }
 
         #endregion
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Hola");
+        }
     }
 }

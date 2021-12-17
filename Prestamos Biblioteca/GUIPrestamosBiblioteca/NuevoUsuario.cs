@@ -25,11 +25,6 @@ namespace GUIPrestamosBiblioteca
 
         #region Botones
 
-        private void label1_Click(object sender, EventArgs e)
-        {
-
-        }
-
         /// <summary>
         /// Cierra la ventana actual
         /// </summary>
@@ -40,8 +35,6 @@ namespace GUIPrestamosBiblioteca
             this.Close();
         }
 
-        #endregion
-
         /// <summary>
         /// Recolecta la informacion ingresada por el usuario y la envia a la fachada
         /// </summary>
@@ -49,16 +42,15 @@ namespace GUIPrestamosBiblioteca
         /// <param name="e"></param>
         private void registrarUsuarioBoton_Click(object sender, EventArgs e)
         {
-            // Recolecta la informacion ingresada y la almacena en variables temporales           
-            string nombre = nombreTextbox.Text;
-            string apellido = apellidoTextbox.Text;
-            TimeSpan fechaNacimiento = TimeSpan.Parse(fechaNacimientoDatePicker.Text);
-            string nombreUsuario = nombreUsuarioTextbox.Text;
-            string contrasenia = contraseniaTextbox.Text;
-            string contrasenia2 = contrasenia2Textbox.Text;
-
             try
             {
+                // Recolecta la informacion ingresada y la almacena en variables temporales           
+                string nombre = nombreTextbox.Text;
+                string apellido = apellidoTextbox.Text;
+                string nombreUsuario = nombreUsuarioTextbox.Text;
+                string contrasenia = contraseniaTextbox.Text;
+                string contrasenia2 = contrasenia2Textbox.Text;
+
                 // Chequea si los datos ingresados son validos
                 if (ChequearPorCaracteresEspecialesYNumeros(nombre))
                     throw new InvalidOperationException("El campo de nombre solo puede contener letras (A-Z ; a-z)");
@@ -69,19 +61,28 @@ namespace GUIPrestamosBiblioteca
                 if (ChequearPorCaracteresEspeciales(nombreUsuario))
                     throw new InvalidOperationException("El campo de nombre solo puede contener letras o numeros (A-Z ; a-z ; 0-9)");
 
-                //Chequeamos si las contraseñas coinciden
+                // Chequea si las contraseñas coinciden
                 if (contrasenia != contrasenia2)
                     throw new InvalidOperationException("Las contraseñas no coinciden");
 
-                Fachada.RegistrarUsuario(nombre, apellido, fechaNacimiento, nombreUsuario, contrasenia);
+                // Enavia la informacion a la Fachada
+                Fachada.RegistrarUsuario(nombre, apellido, nombreUsuario, contrasenia);
+
+                // Muestra mensaje en pantalla avisando al usuario 
+                MessageBox.Show("El usuario ha sido creado con exito, inicie sesion desde la pantalla de inicio");
+
+                // Cierra la pantalla de inicio de sesion
+                this.Close();
+
             }
             catch (Exception ex)
             {
                 MessageBox.Show($"{ex.Message}");
-                throw;
             }
-            
         }
+
+        #endregion
+
 
         #region Metodos Privados Auxiliares
 
@@ -93,12 +94,10 @@ namespace GUIPrestamosBiblioteca
         private bool ChequearPorCaracteresEspeciales(string pCadena)
         {
             // Expresion regular para controlar que la cadena no tenga caracteres especiales 
-            Regex rgx = new Regex("[A-Za-z0-9]");
+            Regex rgx = new Regex("[^A-Za-z0-9]");
 
             // Chequea si la cadena se ajusta a la expresion regular
-            bool containsSpecialChars = rgx.IsMatch(pCadena);
-
-            return containsSpecialChars;
+            return rgx.IsMatch(pCadena);
         }
 
         /// <summary>
@@ -109,15 +108,15 @@ namespace GUIPrestamosBiblioteca
         private bool ChequearPorCaracteresEspecialesYNumeros(string pCadena)
         {
             // Expresion regular para controlar que la cadena no tenga caracteres especiales o numeros
-            Regex rgx = new Regex("[A-Za-z]");
+            Regex rgx = new Regex("[^A-Za-z]");
 
-            // Chequea si la cadena se ajusta a la expresion regular
-            bool containsSpecialCharsOrNums = rgx.IsMatch(pCadena);
-
-            return containsSpecialCharsOrNums;
+            // Chequea si la cadena se ajusta a la expresion regular, devuelve true si no se ajusta
+            return rgx.IsMatch(pCadena);
         }
 
 
+
         #endregion
+
     }
 }
