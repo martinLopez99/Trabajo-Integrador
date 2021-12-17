@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Blade\\Source\\Repos\\Trabajo-Integrador\\Prestamos Biblioteca\\GUIPrestamosBiblioteca\\GUIPrestamosBiblioteca.csproj": {}
+    "C:\\Users\\Tincho.DESKTOP-D357Q8G\\Desktop\\Tincho\\Drive\\UTN\\4to año\\Taller de Programacion\\Trabajo Final\\TrabajoIntegradorC#\\Prestamos Biblioteca\\GUIPrestamosBiblioteca\\GUIPrestamosBiblioteca.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Blade\\Source\\Repos\\Trabajo-Integrador\\Prestamos Biblioteca\\GUIPrestamosBiblioteca\\GUIPrestamosBiblioteca.csproj": {
+    "C:\\Users\\Tincho.DESKTOP-D357Q8G\\Desktop\\Tincho\\Drive\\UTN\\4to año\\Taller de Programacion\\Trabajo Final\\TrabajoIntegradorC#\\Prestamos Biblioteca\\GUIPrestamosBiblioteca\\GUIPrestamosBiblioteca.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Blade\\Source\\Repos\\Trabajo-Integrador\\Prestamos Biblioteca\\GUIPrestamosBiblioteca\\GUIPrestamosBiblioteca.csproj",
+        "projectUniqueName": "C:\\Users\\Tincho.DESKTOP-D357Q8G\\Desktop\\Tincho\\Drive\\UTN\\4to año\\Taller de Programacion\\Trabajo Final\\TrabajoIntegradorC#\\Prestamos Biblioteca\\GUIPrestamosBiblioteca\\GUIPrestamosBiblioteca.csproj",
         "projectName": "GUIPrestamosBiblioteca",
-        "projectPath": "C:\\Users\\Blade\\Source\\Repos\\Trabajo-Integrador\\Prestamos Biblioteca\\GUIPrestamosBiblioteca\\GUIPrestamosBiblioteca.csproj",
-        "packagesPath": "C:\\Users\\Blade\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Blade\\Source\\Repos\\Trabajo-Integrador\\Prestamos Biblioteca\\GUIPrestamosBiblioteca\\obj\\",
+        "projectPath": "C:\\Users\\Tincho.DESKTOP-D357Q8G\\Desktop\\Tincho\\Drive\\UTN\\4to año\\Taller de Programacion\\Trabajo Final\\TrabajoIntegradorC#\\Prestamos Biblioteca\\GUIPrestamosBiblioteca\\GUIPrestamosBiblioteca.csproj",
+        "packagesPath": "C:\\Users\\Tincho.DESKTOP-D357Q8G\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Tincho.DESKTOP-D357Q8G\\Desktop\\Tincho\\Drive\\UTN\\4to año\\Taller de Programacion\\Trabajo Final\\TrabajoIntegradorC#\\Prestamos Biblioteca\\GUIPrestamosBiblioteca\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Blade\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Tincho.DESKTOP-D357Q8G\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -28,8 +28,8 @@
           "net5.0-windows7.0": {
             "targetAlias": "net5.0-windows",
             "projectReferences": {
-              "C:\\Users\\Blade\\Source\\Repos\\Trabajo-Integrador\\Prestamos Biblioteca\\Prestamos Biblioteca\\Prestamos Biblioteca.csproj": {
-                "projectPath": "C:\\Users\\Blade\\Source\\Repos\\Trabajo-Integrador\\Prestamos Biblioteca\\Prestamos Biblioteca\\Prestamos Biblioteca.csproj"
+              "C:\\Users\\Tincho.DESKTOP-D357Q8G\\Desktop\\Tincho\\Drive\\UTN\\4to año\\Taller de Programacion\\Trabajo Final\\TrabajoIntegradorC#\\Prestamos Biblioteca\\Prestamos Biblioteca\\Prestamos Biblioteca.csproj": {
+                "projectPath": "C:\\Users\\Tincho.DESKTOP-D357Q8G\\Desktop\\Tincho\\Drive\\UTN\\4to año\\Taller de Programacion\\Trabajo Final\\TrabajoIntegradorC#\\Prestamos Biblioteca\\Prestamos Biblioteca\\Prestamos Biblioteca.csproj"
               }
             }
           }
@@ -61,21 +61,21 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.302\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Blade\\Source\\Repos\\Trabajo-Integrador\\Prestamos Biblioteca\\Prestamos Biblioteca\\Prestamos Biblioteca.csproj": {
+    "C:\\Users\\Tincho.DESKTOP-D357Q8G\\Desktop\\Tincho\\Drive\\UTN\\4to año\\Taller de Programacion\\Trabajo Final\\TrabajoIntegradorC#\\Prestamos Biblioteca\\Prestamos Biblioteca\\Prestamos Biblioteca.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Blade\\Source\\Repos\\Trabajo-Integrador\\Prestamos Biblioteca\\Prestamos Biblioteca\\Prestamos Biblioteca.csproj",
+        "projectUniqueName": "C:\\Users\\Tincho.DESKTOP-D357Q8G\\Desktop\\Tincho\\Drive\\UTN\\4to año\\Taller de Programacion\\Trabajo Final\\TrabajoIntegradorC#\\Prestamos Biblioteca\\Prestamos Biblioteca\\Prestamos Biblioteca.csproj",
         "projectName": "Prestamos Biblioteca",
-        "projectPath": "C:\\Users\\Blade\\Source\\Repos\\Trabajo-Integrador\\Prestamos Biblioteca\\Prestamos Biblioteca\\Prestamos Biblioteca.csproj",
-        "packagesPath": "C:\\Users\\Blade\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Blade\\Source\\Repos\\Trabajo-Integrador\\Prestamos Biblioteca\\Prestamos Biblioteca\\obj\\",
+        "projectPath": "C:\\Users\\Tincho.DESKTOP-D357Q8G\\Desktop\\Tincho\\Drive\\UTN\\4to año\\Taller de Programacion\\Trabajo Final\\TrabajoIntegradorC#\\Prestamos Biblioteca\\Prestamos Biblioteca\\Prestamos Biblioteca.csproj",
+        "packagesPath": "C:\\Users\\Tincho.DESKTOP-D357Q8G\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Tincho.DESKTOP-D357Q8G\\Desktop\\Tincho\\Drive\\UTN\\4to año\\Taller de Programacion\\Trabajo Final\\TrabajoIntegradorC#\\Prestamos Biblioteca\\Prestamos Biblioteca\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Blade\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Tincho.DESKTOP-D357Q8G\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -133,7 +133,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.302\\RuntimeIdentifierGraph.json"
         }
       }
     }
