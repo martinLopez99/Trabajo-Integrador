@@ -6,40 +6,30 @@ using System.Threading.Tasks;
 
 namespace Prestamos_Biblioteca.Dominio
 {
-   public class Usuario
+    public class UsuarioAdmin
     {
         #region Atributos Privados
 
-        private int iDNI;
         private string iNombre;
         private string iApellido;
-        private string iEmail;
-        private TimeSpan iFechaNacimiento;
-        private int iPuntaje;
+        private string nombreUsuario;
+        private string contrasenia;
 
         #endregion
 
         #region Constructores
 
-        public Usuario(int pDNI, string pNombre, string pApellido, string pEmail, TimeSpan pFechaNacimiento)
+        public UsuarioAdmin(string pNombre, string pApellido, string pNombreUsuario, string pContrasenia)
         {
-            this.iDNI = pDNI;
             this.iNombre = pNombre;
             this.iApellido = pApellido;
-            this.iEmail = pEmail;
-            this.iFechaNacimiento = pFechaNacimiento;
-            this.iPuntaje = 0;
+            this.nombreUsuario = pNombreUsuario;
+            this.contrasenia = pContrasenia;
         }
 
         #endregion
 
         #region Propiedades Publicas
-
-        public int DNI
-        {
-            get { return this.iDNI; }
-            private set { }
-        }
 
         public string Nombre
         {
@@ -53,26 +43,20 @@ namespace Prestamos_Biblioteca.Dominio
             private set { }
         }
 
-        public string Email
+        public string NombreUsuario
         {
-            get { return this.iEmail; }
+            get { return this.nombreUsuario; }
             private set { }
         }
 
-        public TimeSpan FechaNacimiento
+        public string Contrasenia
         {
-            get { return this.iFechaNacimiento; }
+            get { return this.contrasenia; }
             private set { }
-        }
-
-        public int Puntaje
-        {
-            get { return this.iPuntaje; }
-            set { this.iPuntaje = value; }
         }
 
         #endregion
 
-    }
 
+    }
 }

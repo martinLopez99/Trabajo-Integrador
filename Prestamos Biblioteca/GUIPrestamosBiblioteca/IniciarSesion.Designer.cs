@@ -120,9 +120,9 @@ namespace GUIPrestamosBiblioteca
             this.nuevoUsuarioBoton.ForeColor = System.Drawing.Color.Black;
             this.nuevoUsuarioBoton.Location = new System.Drawing.Point(12, 266);
             this.nuevoUsuarioBoton.Name = "nuevoUsuarioBoton";
-            this.nuevoUsuarioBoton.Size = new System.Drawing.Size(113, 33);
+            this.nuevoUsuarioBoton.Size = new System.Drawing.Size(186, 33);
             this.nuevoUsuarioBoton.TabIndex = 40;
-            this.nuevoUsuarioBoton.Text = "Crear un Usuario";
+            this.nuevoUsuarioBoton.Text = "Crear un Usuario Administrador";
             this.nuevoUsuarioBoton.UseVisualStyleBackColor = true;
             this.nuevoUsuarioBoton.Click += new System.EventHandler(this.nuevoUsuarioBoton_Click);
             // 

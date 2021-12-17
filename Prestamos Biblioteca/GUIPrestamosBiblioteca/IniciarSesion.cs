@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Prestamos_Biblioteca;
 
 namespace GUIPrestamosBiblioteca
 {
@@ -25,12 +26,17 @@ namespace GUIPrestamosBiblioteca
         #region Botones
 
         /// <summary>
-        /// Abrimos una ventana del tipo <see cref="MenuPrincipal"/>
+        /// Consulta si el nombreUsuario se corresponde con la constraseña y abre una ventana del tipo <see cref="MenuPrincipal"/>
         /// </summary>
         /// <param name="sender"></param>
         /// <param name="e"></param>
         private void iniciarSesionBoton_Click(object sender, EventArgs e)
         {
+            string nombreUsuario = nombreUsuarioTextbox.Text;
+            string contrasenia = contraseniaTextbox.Text;
+
+            Fachada.VerificarUsuarioYContrasenia(nombreUsuario, contrasenia);
+
             // Escondemos esta ventana
             this.Hide();
 
@@ -55,7 +61,7 @@ namespace GUIPrestamosBiblioteca
         }
 
         /// <summary>
-        /// Abrimos una ventana del tipo <see cref="NuevoUsuario"/>
+        /// Abrimos una ventana del tipo <see cref="NuevoUsuarioAdmin"/>
         /// </summary>
         /// <param name="sender"></param>
         /// <param name="e"></param>
@@ -65,7 +71,7 @@ namespace GUIPrestamosBiblioteca
             this.Hide();
 
             // Creamos una instancia de la ventana NuevoUsuario
-            NuevoUsuario unMenu = new NuevoUsuario();
+            NuevoUsuarioAdmin unMenu = new NuevoUsuarioAdmin();
 
             // Mostramos la instancia de la ventana creada
             unMenu.ShowDialog();
@@ -76,9 +82,5 @@ namespace GUIPrestamosBiblioteca
 
         #endregion
 
-        private void button1_Click(object sender, EventArgs e)
-        {
-            MessageBox.Show("Hola");
-        }
     }
 }

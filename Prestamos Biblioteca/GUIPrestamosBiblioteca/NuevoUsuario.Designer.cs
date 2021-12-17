@@ -1,7 +1,7 @@
 ﻿
 namespace GUIPrestamosBiblioteca
 {
-    partial class NuevoUsuario
+    partial class NuevoUsuarioAdmin
     {
         /// <summary>
         /// Required designer variable.
@@ -66,7 +66,6 @@ namespace GUIPrestamosBiblioteca
             this.contraseniaTextbox.Size = new System.Drawing.Size(271, 27);
             this.contraseniaTextbox.TabIndex = 40;
             this.contraseniaTextbox.UseSystemPasswordChar = true;
-
             // 
             // nombreUsuarioTextbox
             // 
@@ -75,7 +74,6 @@ namespace GUIPrestamosBiblioteca
             this.nombreUsuarioTextbox.Name = "nombreUsuarioTextbox";
             this.nombreUsuarioTextbox.Size = new System.Drawing.Size(271, 27);
             this.nombreUsuarioTextbox.TabIndex = 30;
-
             // 
             // contrasenia
             // 
@@ -86,7 +84,6 @@ namespace GUIPrestamosBiblioteca
             this.contrasenia.Size = new System.Drawing.Size(97, 19);
             this.contrasenia.TabIndex = 13;
             this.contrasenia.Text = "Contraseña:";
-
             // 
             // nombreUsuario
             // 
@@ -97,7 +94,6 @@ namespace GUIPrestamosBiblioteca
             this.nombreUsuario.Size = new System.Drawing.Size(154, 19);
             this.nombreUsuario.TabIndex = 12;
             this.nombreUsuario.Text = "Nombre de Usuario:";
-
             // 
             // nombreTextbox
             // 
@@ -144,7 +140,6 @@ namespace GUIPrestamosBiblioteca
             this.contrasenia2Textbox.Size = new System.Drawing.Size(271, 27);
             this.contrasenia2Textbox.TabIndex = 50;
             this.contrasenia2Textbox.UseSystemPasswordChar = true;
-
             // 
             // label4
             // 
@@ -155,7 +150,6 @@ namespace GUIPrestamosBiblioteca
             this.label4.Size = new System.Drawing.Size(152, 19);
             this.label4.TabIndex = 22;
             this.label4.Text = "Repetir contraseña:";
-
             // 
             // registrarUsuarioBoton
             // 
@@ -179,7 +173,7 @@ namespace GUIPrestamosBiblioteca
             this.salirBoton.UseVisualStyleBackColor = true;
             this.salirBoton.Click += new System.EventHandler(this.salirBoton_Click);
             // 
-            // NuevoUsuario
+            // NuevoUsuarioAdmin
             // 
             this.AcceptButton = this.salirBoton;
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
@@ -200,7 +194,7 @@ namespace GUIPrestamosBiblioteca
             this.Controls.Add(this.tituloPrincipal);
             this.MaximizeBox = false;
             this.MinimumSize = new System.Drawing.Size(700, 450);
-            this.Name = "NuevoUsuario";
+            this.Name = "NuevoUsuarioAdmin";
             this.Text = "NuevoUsuario";
             this.ResumeLayout(false);
             this.PerformLayout();

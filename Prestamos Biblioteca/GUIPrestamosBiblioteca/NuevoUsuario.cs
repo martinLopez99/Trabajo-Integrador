@@ -12,11 +12,14 @@ using System.Text.RegularExpressions;
 
 namespace GUIPrestamosBiblioteca
 {
-    public partial class NuevoUsuario : Form
+    /// <summary>
+    /// GUI encargada de recolectar informacion sobre un nuevo usuario administrador
+    /// </summary>
+    public partial class NuevoUsuarioAdmin : Form
     {
         #region Constructor
 
-        public NuevoUsuario()
+        public NuevoUsuarioAdmin()
         {
             InitializeComponent();
         }
@@ -66,7 +69,7 @@ namespace GUIPrestamosBiblioteca
                     throw new InvalidOperationException("Las contraseñas no coinciden");
 
                 // Enavia la informacion a la Fachada
-                Fachada.RegistrarUsuario(nombre, apellido, nombreUsuario, contrasenia);
+                Fachada.RegistrarUsuarioAdmin(nombre, apellido, nombreUsuario, contrasenia);
 
                 // Muestra mensaje en pantalla avisando al usuario 
                 MessageBox.Show("El usuario ha sido creado con exito, inicie sesion desde la pantalla de inicio");
