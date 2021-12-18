@@ -32,22 +32,43 @@ namespace GUIPrestamosBiblioteca
         /// <param name="e"></param>
         private void iniciarSesionBoton_Click(object sender, EventArgs e)
         {
-            string nombreUsuario = nombreUsuarioTextbox.Text;
-            string contrasenia = contraseniaTextbox.Text;
+            try
+            {
+                // Recolecta los datos ingresados por el usuario
+                string nombreUsuario = nombreUsuarioTextbox.Text;
+                string contrasenia = contraseniaTextbox.Text;
 
-            Fachada.VerificarUsuarioYContrasenia(nombreUsuario, contrasenia);
+                // Variable que almacena si el usuario fue autenticado o no
+                bool usuarioVerificado = Fachada.VerificarUsuarioYContrasenia(nombreUsuario, contrasenia);
 
-            // Escondemos esta ventana
-            this.Hide();
+                // *****************************************************************
+                // Para poder ingresar a la otra ventana a hacer pruebas se pone la
+                // variable en True, hay que cambiarlo despues (TODO)
+                usuarioVerificado = true;
+                // *****************************************************************
 
-            // Creamos una instancia de la ventana MenuPrincipal
-            MenuPrincipal unMenu = new MenuPrincipal();
+                if (!usuarioVerificado)
+                    throw new InvalidOperationException("El usuario o la contraseña no son correctos, intente nuevamente");
+                else
+                {
+                    // Escondemos esta ventana
+                    this.Hide();
 
-            // Mostramos la instancia de la ventana creada
-            unMenu.ShowDialog();
+                    // Creamos una instancia de la ventana MenuPrincipal
+                    MenuPrincipal unMenu = new MenuPrincipal();
 
-            // Cuando se cierra la instancia anterior, volvemos a mostrar la ventana de IniciarSesion
-            this.Show();
+                    // Mostramos la instancia de la ventana creada
+                    unMenu.ShowDialog();
+
+                    // Cuando se cierra la instancia anterior, volvemos a mostrar la ventana de IniciarSesion
+                    this.Show();
+                }
+
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"{ex.Message}");
+            }
         }
 
         /// <summary>
@@ -61,23 +82,49 @@ namespace GUIPrestamosBiblioteca
         }
 
         /// <summary>
-        /// Abrimos una ventana del tipo <see cref="NuevoUsuarioAdmin"/>
+        /// Consulta si el nombreUsuario se corresponde con la constraseña y abre una ventana del tipo <see cref="NuevoUsuarioAdmin"/>
         /// </summary>
         /// <param name="sender"></param>
         /// <param name="e"></param>
         private void nuevoUsuarioBoton_Click(object sender, EventArgs e)
         {
-            // Escondemos esta ventana
-            this.Hide();
+            try
+            {
+                // Recolecta los datos ingresados por el usuario
+                string nombreUsuario = nombreUsuarioTextbox.Text;
+                string contrasenia = contraseniaTextbox.Text;
 
-            // Creamos una instancia de la ventana NuevoUsuario
-            NuevoUsuarioAdmin unMenu = new NuevoUsuarioAdmin();
+                // Variable que almacena si el usuario fue autenticado
+                bool usuarioVerificado = Fachada.VerificarUsuarioYContrasenia(nombreUsuario, contrasenia);
 
-            // Mostramos la instancia de la ventana creada
-            unMenu.ShowDialog();
+                // *****************************************************************
+                // Para poder ingresar a la otra ventana a hacer pruebas se pone la
+                // variable en True, hay que cambiarlo despues (TODO)
+                usuarioVerificado = true;
+                // *****************************************************************
 
-            // Cuando se cierra la instancia anterior, volvemos a mostrar la ventana de IniciarSesion
-            this.Show();
+                if (!usuarioVerificado)
+                    throw new InvalidOperationException("El usuario o la contraseña no son correctos, intente nuevamente");
+                else
+                {
+                    // Escondemos esta ventana
+                    this.Hide();
+
+                    // Creamos una instancia de la ventana NuevoUsuario
+                    NuevoUsuarioAdmin unMenu = new NuevoUsuarioAdmin();
+
+                    // Mostramos la instancia de la ventana creada
+                    unMenu.ShowDialog();
+
+                    // Cuando se cierra la instancia anterior, volvemos a mostrar la ventana de IniciarSesion
+                    this.Show();
+                }
+
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"{ex.Message}");
+            }
         }
 
         #endregion

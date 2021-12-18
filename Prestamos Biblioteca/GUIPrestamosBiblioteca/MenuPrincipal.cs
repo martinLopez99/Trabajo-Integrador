@@ -32,8 +32,40 @@ namespace GUIPrestamosBiblioteca
         {
             this.Close();
         }
-        
-        #endregion 
+
+        /// <summary>
+        /// Abre una nueva ventana <see cref="NuevoUsuario"/>
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void registrarUsuarioBoton_Click(object sender, EventArgs e)
+        {
+            // Escondemos esta ventana
+            this.Hide();
+
+            // Creamos una instancia de la ventana MenuPrincipal
+            NuevoUsuario unMenu = new NuevoUsuario();
+
+            // Mostramos la instancia de la ventana creada
+            unMenu.ShowDialog();
+
+            // Cuando se cierra la instancia anterior, volvemos a mostrar la ventana de MenuPrincipal
+            this.Show();
+        }
+
+
+        private void buscarEnSistemaBoton_Click(object sender, EventArgs e)
+        {
+
+        }
+
+
+        private void registrarPrestamoBoton_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        #endregion
 
     }
 }

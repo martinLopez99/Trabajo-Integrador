@@ -17,7 +17,6 @@ C:\Users\Blade\Source\Repos\Trabajo-Integrador\Prestamos Biblioteca\GUIPrestamos
 C:\Users\Blade\Source\Repos\Trabajo-Integrador\Prestamos Biblioteca\GUIPrestamosBiblioteca\obj\Debug\net5.0-windows\GUIPrestamosBiblioteca.genruntimeconfig.cache
 C:\Users\Blade\Source\Repos\Trabajo-Integrador\Prestamos Biblioteca\GUIPrestamosBiblioteca\obj\Debug\net5.0-windows\GUIPrestamosBiblioteca.IniciarSesion.resources
 C:\Users\Blade\Source\Repos\Trabajo-Integrador\Prestamos Biblioteca\GUIPrestamosBiblioteca\obj\Debug\net5.0-windows\GUIPrestamosBiblioteca.MenuPrincipal.resources
-C:\Users\Blade\Source\Repos\Trabajo-Integrador\Prestamos Biblioteca\GUIPrestamosBiblioteca\obj\Debug\net5.0-windows\GUIPrestamosBiblioteca.NuevoUsuario.resources
 C:\Users\Blade\Source\Repos\Trabajo-Integrador\Prestamos Biblioteca\GUIPrestamosBiblioteca\bin\Debug\net5.0-windows\Prestamos Biblioteca.deps.json
 C:\Users\Blade\Source\Repos\Trabajo-Integrador\Prestamos Biblioteca\GUIPrestamosBiblioteca\bin\Debug\net5.0-windows\Prestamos Biblioteca.runtimeconfig.json
 C:\Users\Blade\Source\Repos\Trabajo-Integrador\Prestamos Biblioteca\GUIPrestamosBiblioteca\bin\Debug\net5.0-windows\Prestamos Biblioteca.runtimeconfig.dev.json
@@ -73,3 +72,5 @@ C:\Users\Blade\Source\Repos\Trabajo-Integrador\Prestamos Biblioteca\GUIPrestamos
 C:\Users\Blade\Source\Repos\Trabajo-Integrador\Prestamos Biblioteca\GUIPrestamosBiblioteca\bin\Debug\net5.0-windows\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
 C:\Users\Blade\Source\Repos\Trabajo-Integrador\Prestamos Biblioteca\GUIPrestamosBiblioteca\bin\Debug\net5.0-windows\Prestamos Biblioteca.dll
 C:\Users\Blade\Source\Repos\Trabajo-Integrador\Prestamos Biblioteca\GUIPrestamosBiblioteca\bin\Debug\net5.0-windows\Prestamos Biblioteca.pdb
+C:\Users\Blade\Source\Repos\Trabajo-Integrador\Prestamos Biblioteca\GUIPrestamosBiblioteca\obj\Debug\net5.0-windows\GUIPrestamosBiblioteca.NuevoUsuarioAdmin.resources
+C:\Users\Blade\Source\Repos\Trabajo-Integrador\Prestamos Biblioteca\GUIPrestamosBiblioteca\obj\Debug\net5.0-windows\GUIPrestamosBiblioteca.NuevoUsuario.resources

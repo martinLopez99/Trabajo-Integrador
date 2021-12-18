@@ -57,6 +57,7 @@ namespace GUIPrestamosBiblioteca
             this.registrarPrestamoBoton.TabIndex = 20;
             this.registrarPrestamoBoton.Text = "Registrar un Nuevo Prestamo";
             this.registrarPrestamoBoton.UseVisualStyleBackColor = true;
+            this.registrarPrestamoBoton.Click += new System.EventHandler(this.registrarPrestamoBoton_Click);
             // 
             // registrarUsuarioBoton
             // 
@@ -67,6 +68,7 @@ namespace GUIPrestamosBiblioteca
             this.registrarUsuarioBoton.TabIndex = 10;
             this.registrarUsuarioBoton.Text = "Registrar un Nuevo Usuario";
             this.registrarUsuarioBoton.UseVisualStyleBackColor = true;
+            this.registrarUsuarioBoton.Click += new System.EventHandler(this.registrarUsuarioBoton_Click);
             // 
             // buscarEnSistemaBoton
             // 
@@ -77,6 +79,7 @@ namespace GUIPrestamosBiblioteca
             this.buscarEnSistemaBoton.TabIndex = 30;
             this.buscarEnSistemaBoton.Text = "Buscar en el Sistema";
             this.buscarEnSistemaBoton.UseVisualStyleBackColor = true;
+            this.buscarEnSistemaBoton.Click += new System.EventHandler(this.buscarEnSistemaBoton_Click);
             // 
             // tituloPrincipal
             // 

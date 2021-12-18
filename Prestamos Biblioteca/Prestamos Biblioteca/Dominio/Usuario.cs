@@ -10,7 +10,7 @@ namespace Prestamos_Biblioteca.Dominio
     {
         #region Atributos Privados
 
-        private int iDNI;
+        private string iDNI;
         private string iNombre;
         private string iApellido;
         private string iEmail;
@@ -21,7 +21,7 @@ namespace Prestamos_Biblioteca.Dominio
 
         #region Constructores
 
-        public Usuario(int pDNI, string pNombre, string pApellido, string pEmail, TimeSpan pFechaNacimiento)
+        public Usuario( string pDNI, string pNombre, string pApellido, string pEmail, TimeSpan pFechaNacimiento)
         {
             this.iDNI = pDNI;
             this.iNombre = pNombre;
@@ -35,7 +35,7 @@ namespace Prestamos_Biblioteca.Dominio
 
         #region Propiedades Publicas
 
-        public int DNI
+        public string DNI
         {
             get { return this.iDNI; }
             private set { }
