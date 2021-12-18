@@ -14,14 +14,14 @@ namespace Prestamos_Biblioteca.Dominio
         private string iNombre;
         private string iApellido;
         private string iEmail;
-        private TimeSpan iFechaNacimiento;
+        private DateTime iFechaNacimiento;
         private int iPuntaje;
 
         #endregion
 
         #region Constructores
 
-        public Usuario( string pDNI, string pNombre, string pApellido, string pEmail, TimeSpan pFechaNacimiento)
+        public Usuario( string pDNI, string pNombre, string pApellido, string pEmail, DateTime pFechaNacimiento)
         {
             this.iDNI = pDNI;
             this.iNombre = pNombre;
@@ -59,7 +59,7 @@ namespace Prestamos_Biblioteca.Dominio
             private set { }
         }
 
-        public TimeSpan FechaNacimiento
+        public DateTime FechaNacimiento
         {
             get { return this.iFechaNacimiento; }
             private set { }

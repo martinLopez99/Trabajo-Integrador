@@ -40,7 +40,7 @@ namespace Prestamos_Biblioteca.Dominio
 
         #endregion
 
-        #region Propiedades Privadas
+        #region Propiedades Publicas
 
         public int Numero
         {

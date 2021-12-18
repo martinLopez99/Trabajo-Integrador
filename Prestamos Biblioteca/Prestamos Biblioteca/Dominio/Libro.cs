@@ -16,14 +16,14 @@ namespace Prestamos_Biblioteca.Dominio
     {
         #region Atributos Privados
 
-        private int iISBN10;
+        private string iISBN10;
         private string iTitulo;
         private string iSubtitulo;
 
         #endregion
 
         #region Constructor
-        public Libro(int pISBN10, string pTitulo, string pSubtitulo)
+        public Libro(string pISBN10, string pTitulo, string pSubtitulo)
         {
             this.iISBN10 = pISBN10;
             this.iTitulo = pTitulo;
@@ -33,7 +33,7 @@ namespace Prestamos_Biblioteca.Dominio
 
         #region Propiedades Publicas
 
-        public int isbn
+        public string isbn
         {
             get { return this.iISBN10; }
             private set { }

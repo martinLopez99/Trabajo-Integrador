@@ -13,16 +13,15 @@ namespace Prestamos_Biblioteca
     /// </summary>
     public static class Fachada
     {
-        #region Creacion Usuario Admin
+        #region Usuarios Admin
 
         /// <summary>
-        /// Registra un nuevo <see cref="Usuario"/> y lo deberia cargar en la base de datos
+        /// Registra un nuevo <see cref="UsuarioAdmin"/> y lo deberia cargar en la base de datos
         /// </summary>
-        /// <param name="pNombre">Nombre del usuario</param>
-        /// <param name="pApellido">Apellido del usuario</param>
-        /// <param name="pFechaNacimiento">Fecha de nacimiento del usuario</param>
-        /// <param name="pNombreUsuario">Nombre de usuario del usuario</param>
-        /// <param name="pContrasenia">Contraseña del usuario</param>
+        /// <param name="pNombre">Nombre del usuario administrador</param>
+        /// <param name="pApellido">Apellido del usuario administrador</param>
+        /// <param name="pNombreUsuario">Nombre de usuario del usuario administrador</param>
+        /// <param name="pContrasenia">Contraseña del usuario administrador</param>
         public static void RegistrarUsuarioAdmin(string pNombre, string pApellido, 
             string pNombreUsuario, string pContrasenia)
         {
@@ -40,19 +39,70 @@ namespace Prestamos_Biblioteca
 
         #endregion
 
-        #region Creacion Usuario
+        #region Libros
 
+        /// <summary>
+        /// Busca el <see cref="Libro"/>, chequea si existen ejemplares disponibles y si los hay,
+        /// lo devuelve (Tal vez habria que devolver solo los datos y no la entidad en si)
+        /// </summary>
+        /// <param name="isbnLibro">El ISBN del libro a buscar</param>
+        /// <returns></returns>
+        public static Libro BuscarLibro(string isbnLibro)
+        {
+            // TODO: Buscar en la base de datos el Usuario con el dni
+
+            // Libro de prueba
+            Libro unLibro = new Libro("1234567890", "Don Quijote de la Mancha", "Una Aventura Loca");
+
+            // TODO: Chequea que existan Ejemplares disponibles del Libro buscado
+
+            return unLibro;
+        }
+
+        #endregion
+
+
+        #region Usuarios
+
+        /// <summary>
+        /// Registra el nuevo <see cref="Usuario"/> y lo deberia cargar en la base de datos
+        /// </summary>
+        /// <param name="pNombre">Nombre del Usuario</param>
+        /// <param name="pApellido">Apellido del Usuario</param>
+        /// <param name="pDNI">DNI del Usuario</param>
+        /// <param name="pFechaNacimiento">Fecha de Nacimiento del Usuario</param>
+        /// <param name="pEmail">Email del usuario</param>
         public static void RegistrarUsuario(string pNombre, string pApellido, string pDNI, DateTime pFechaNacimiento, string pEmail)
         {
-            // Por ahora que nose como convertir DateTime a TimeSpan (Cambiar despues)
-            TimeSpan currentTime = DateTime.Now.TimeOfDay;
+            // Crea una instancia de Usuario
+            Usuario unUsuario = new Usuario(pDNI, pNombre, pApellido, pEmail, pFechaNacimiento);
 
-            // Crea un instancia de Usuario
-            Usuario unUsuario = new Usuario(pDNI, pNombre, pApellido, pEmail, currentTime);
+            // TODO: Cargar un nuevo usuario en la base de datos
 
-            // TODO: Cargar un nuevo usuario administrador en la base de datos
+        }
 
+        /// <summary>
+        /// Busca el <see cref="Usuario"/> y lo devuelve (Tal vez habria que devolver solo los datos y no la entidad en si)
+        /// </summary>
+        /// <param name="dniUsuario">DNI del Usuario a buscar</param>
+        public static Usuario BuscarUsuario(string dniUsuario)
+        {
+            // Buscar en la base de datos el Usuario con el dni
 
+            // Usuario de prueba
+            Usuario unUsuario = new Usuario("95889617", "Renato", "Corbellini", "renatocorbellini@hotmail.com", new DateTime(2000, 05, 03));
+
+            return unUsuario;
+
+        }
+
+        #endregion
+
+        #region Prestamos
+
+        public static void RegistrarPrestamo(DateTime fechaInicio, DateTime fechaFinEstimada)
+        {
+            throw new NotImplementedException();
         }
 
         #endregion

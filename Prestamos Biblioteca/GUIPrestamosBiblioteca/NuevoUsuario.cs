@@ -26,7 +26,13 @@ namespace GUIPrestamosBiblioteca
 
         #endregion
 
+        #region Botones
 
+        /// <summary>
+        /// Recolecta la informacion ingresada por el usuario y la envia a la fachada
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void registrarUsuarioBoton_Click(object sender, EventArgs e)
         {
             try
@@ -57,7 +63,7 @@ namespace GUIPrestamosBiblioteca
                 // Muestra mensaje en pantalla avisando al usuario 
                 MessageBox.Show("El usuario ha sido creado con exito");
 
-                // Cierra la pantalla de inicio de sesion
+                // Cierra la pantalla actual
                 this.Close();
 
             }
@@ -76,5 +82,7 @@ namespace GUIPrestamosBiblioteca
         {
             this.Close();
         }
+
+        #endregion
     }
 }

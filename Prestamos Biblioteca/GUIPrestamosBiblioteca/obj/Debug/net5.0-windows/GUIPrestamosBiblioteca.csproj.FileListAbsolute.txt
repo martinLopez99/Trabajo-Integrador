@@ -74,3 +74,4 @@ C:\Users\Blade\Source\Repos\Trabajo-Integrador\Prestamos Biblioteca\GUIPrestamos
 C:\Users\Blade\Source\Repos\Trabajo-Integrador\Prestamos Biblioteca\GUIPrestamosBiblioteca\bin\Debug\net5.0-windows\Prestamos Biblioteca.pdb
 C:\Users\Blade\Source\Repos\Trabajo-Integrador\Prestamos Biblioteca\GUIPrestamosBiblioteca\obj\Debug\net5.0-windows\GUIPrestamosBiblioteca.NuevoUsuarioAdmin.resources
 C:\Users\Blade\Source\Repos\Trabajo-Integrador\Prestamos Biblioteca\GUIPrestamosBiblioteca\obj\Debug\net5.0-windows\GUIPrestamosBiblioteca.NuevoUsuario.resources
+C:\Users\Blade\Source\Repos\Trabajo-Integrador\Prestamos Biblioteca\GUIPrestamosBiblioteca\obj\Debug\net5.0-windows\GUIPrestamosBiblioteca.RegistrarPrestamo.resources

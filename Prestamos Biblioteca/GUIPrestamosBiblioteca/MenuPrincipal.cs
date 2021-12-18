@@ -43,7 +43,7 @@ namespace GUIPrestamosBiblioteca
             // Escondemos esta ventana
             this.Hide();
 
-            // Creamos una instancia de la ventana MenuPrincipal
+            // Creamos una instancia de la ventana NuevoUsuario
             NuevoUsuario unMenu = new NuevoUsuario();
 
             // Mostramos la instancia de la ventana creada
@@ -59,10 +59,24 @@ namespace GUIPrestamosBiblioteca
 
         }
 
-
+        /// <summary>
+        /// Abre una nueva ventana <see cref="RegistrarPrestamo"/>
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void registrarPrestamoBoton_Click(object sender, EventArgs e)
         {
+            // Escondemos esta ventana
+            this.Hide();
 
+            // Creamos una instancia de la ventana RegistrarPrestamo
+            RegistrarPrestamo unMenu = new RegistrarPrestamo();
+
+            // Mostramos la instancia de la ventana creada
+            unMenu.ShowDialog();
+
+            // Cuando se cierra la instancia anterior, volvemos a mostrar la ventana de MenuPrincipal
+            this.Show();
         }
 
         #endregion

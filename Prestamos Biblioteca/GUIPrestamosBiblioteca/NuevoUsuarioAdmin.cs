@@ -74,7 +74,7 @@ namespace GUIPrestamosBiblioteca
                 // Muestra mensaje en pantalla avisando al usuario 
                 MessageBox.Show("El usuario ha sido creado con exito, inicie sesion desde la pantalla de inicio");
 
-                // Cierra la pantalla de inicio de sesion
+                // Cierra la pantalla actual
                 this.Close();
 
             }
