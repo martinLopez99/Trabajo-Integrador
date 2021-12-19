@@ -49,7 +49,7 @@ namespace Prestamos_Biblioteca
         /// <returns></returns>
         public static Libro BuscarLibro(string isbnLibro)
         {
-            // TODO: Buscar en la base de datos el Usuario con el dni
+            // TODO: Buscar en la base de datos el Libro con el ISBN
 
             // Libro de prueba
             Libro unLibro = new Libro("1234567890", "Don Quijote de la Mancha", "Una Aventura Loca");
@@ -115,6 +115,7 @@ namespace Prestamos_Biblioteca
         /// </summary>
         /// <param name="nombreUsuario">El nombre de usuario a verificar</param>
         /// <param name="contrasenia">La constraseña a verificar</param>
+        /// <returns>Devuelve true si el nombre de usuario y la contraseña coiniciden con los almacenados en la base de datos</returns>
         public static bool VerificarUsuarioYContrasenia(string pNombreUsuario, string pContrasenia)
         {
             // Encripta el nombre de usuario y la contraseña para consultarlo con lo guardado en la base de datos
